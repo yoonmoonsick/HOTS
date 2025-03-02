@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="YMS_HOTS"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,1,1,FeatASI);SelectPassives(cc445e54-9a93-405e-85fd-988397f17d85,1)"/>
+                    <attribute id="UUID" type="guid" value="030822aa-716d-4276-9902-5ecb9d548e4e"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

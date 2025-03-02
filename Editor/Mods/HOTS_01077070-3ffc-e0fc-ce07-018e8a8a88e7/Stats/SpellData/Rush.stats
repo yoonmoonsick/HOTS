@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bbe0e72e-fa2a-41d2-be9a-c604af561421">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a39da9b8-8f0c-4098-984c-4e2d9121d2d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Diablo_ShadowCharge" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dcd5f62-fadc-4dbc-bdff-025e4f38cb61" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(Character() and not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(STUNNED,100,2);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Diablo_ShadowCharge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h576b6027ga38dgb9ccgcc51gc5dca10b014e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb78d141ege1e4gc7e8g7787g8428765cbd6c" version="3" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType); " />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack;Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STUNNED,100,2)" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value=";" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbeb68f3-7567-4418-96fc-db027448c92b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kharazim_RadiantDash" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dcd5f62-fadc-4dbc-bdff-025e4f38cb61" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not Enemy()):RegainHitPoints(LevelMapValue(D10Cantrip)+Level+WisdomModifier);ApplyStatus(SELF,MAG_MOMENTUM,100,2);ApplyStatus(SELF,MAG_MOMENTUM_DURATION_TECHNICAL, 100, 1)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(Enemy()):DealDamage(LevelMapValue(D10Cantrip)+max(DexterityModifier,StrengthModifier),Bludgeoning,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() and not Dead()) or Item()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Kharazim_RadiantDash" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he60b9a1eg254cg542egd949ga0148c83324e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1a808914ge6ffg88edg8479g174876bb970f" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Bludgeoning);DealDamage(max(DexterityModifier,StrengthModifier),Bludgeoning,Magical);RegainHitPoints(LevelMapValue(D10Cantrip));RegainHitPoints(Level);RegainHitPoints(WisdomModifier)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MAG_MOMENTUM,100,2)" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value=";" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

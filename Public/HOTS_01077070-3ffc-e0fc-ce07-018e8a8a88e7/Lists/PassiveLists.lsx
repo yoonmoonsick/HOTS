@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Heroes of the Storm"/>
+                    <attribute id="Passives" type="LSString" value="Arthas_FrostmourneHungers,Diablo_BlackSoulstone,Kerrigan_Assimilation,Kharazim_IronFists,Raynor_GiveEmSomePepper,Uther_EternalDevotion,"/>
+                    <attribute id="UUID" type="guid" value="cc445e54-9a93-405e-85fd-988397f17d85"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

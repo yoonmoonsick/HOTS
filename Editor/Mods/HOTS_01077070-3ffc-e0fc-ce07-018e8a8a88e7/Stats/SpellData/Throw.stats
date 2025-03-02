@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c75b1787-58d1-4696-8d05-4acbda82eda1">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b02cb2b-dd37-468d-af1c-7b8a74b22e17" />
+        <field name="Name" type="NameTableFieldDefinition" value="Diablo_Overpower" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="960eb169-2919-44dd-8c76-d596216f1097" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="2" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="ThrowableSpellSuccess" type="StringTableFieldDefinition" value="IF(Character()):ApplyStatus(STUNNED,100,1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Diablo_Overpower" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb3b13689g8785gd338g1ad9g6ad738770561" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h423bd8bcga98eg0ea0g35fbg09ed6344eca1" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STUNNED,100,1);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold;IsHarmful;IgnoreSilence;IgnoreVisionBlock;AddFallDamageOnLand;PickupEntityAndMove;CombatLogSetSingleLineRoll" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="ThrowableTargetConditions" type="StringTableFieldDefinition" value="IsImprovisedWeapon() and DiabloCanImprovisedWeaponWeight() and not Grounded() and not IsItemDisabled() and not HasAttribute('InventoryBound') and (IsMovable() or Character() or Dead()) and CanMove(context.Target, context.Source, false) and not Tagged('CANT_SHOVE_THROW')" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

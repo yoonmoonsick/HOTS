@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="2b51e708-77ad-40c3-b0a1-ff47d70a5518" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="Arthas_FrozenTempest">
+  <EffectInfo UUID="fcb8544f-3ad3-4256-bde2-4f5682bce8d0" EffectResourceGuid="86fb454e-9a03-7cf4-8116-324b70170095" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

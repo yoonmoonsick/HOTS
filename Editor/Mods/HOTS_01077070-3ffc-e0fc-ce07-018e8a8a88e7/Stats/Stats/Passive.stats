@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3228d8fd-c666-4ce0-8fc8-e749327b0348" />
+        <field name="Name" type="NameTableFieldDefinition" value="Raynor_GiveEmSomePepper" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h53d8394fgf7abg1e6bgdcc4g81c4688eceb4" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6769af3egf0fbg2f8egea47gd3e7407bd944" version="5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Raynor_GiveEmSomePepper" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(RollDieAgainstDC(DiceType.d4,4)):CreateExplosion(Projectile_GiveEmSomePepper)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_Raynor_PenetratingRound);UnlockSpell(Shout_Raynor_Inspire);UnlockSpell(Shout_Raynor_AdrenalineRush);" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h82ee28acgfbafg9d63g0475g9203bb3d5c2a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e429a727-cdd3-41fb-b1fe-a285cf97a882" />
+        <field name="Name" type="NameTableFieldDefinition" value="Diablo_BlackSoulstone" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h499ffaeag2a79g17e4gc05fg7f6a691ab6bf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha9bf389fga98ag7c00gfa99gb53ee398b550" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Diablo_BlackSoulstone" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Rush_Diablo_ShadowCharge);UnlockSpell(Zone_Diablo_FireStomp);UnlockSpell(Throw_Diablo_Overpower);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DIABLO_BLACKSOULSTONE,100,-1)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he0d201efg0b4ag2aadg1c18gd49566a6cfdd" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb7c8bf8-2df8-4406-9b79-db07a3af7d38" />
+        <field name="Name" type="NameTableFieldDefinition" value="Uther_EternalDevotion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0585173c-9e2b-4b77-bf7f-68a9e3942ce1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac6c020fgec5dg61f1g36d5gee9407c31d01" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha28896f6g2746g1c0bg810bg8382248c0be4" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Uther_EternalDevotion" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Uther_HolyLight);UnlockSpell(Zone_Uther_HolyRadiance);UnlockSpell(Target_Uther_HammerOfJustice);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(UTHER_DEVOTION,100,2)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha914af09g2167gb0e7gc53bg7ec2ba773eb5" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f7de95c-c662-495a-9035-175b572d3f8e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kerrigan_Assimilation" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba7e6951-6525-48eb-bfe7-57fd5db8fb2e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h797201c2geb11g4314g2fbbg7aa3076c85ae" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd11a8ff9gda46g1e83g5914gdbd3d313bb66" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hbaae2fb0gbc7bg852cg7dffg0ef84d295301" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Kerrigan_Assimilation" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Kerrigan_Ravage);UnlockSpell(Target_Kerrigan_ImpalingBlades);UnlockSpell(Zone_Kerrigan_PrimalGrasp);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_DARK_ONES_BLESSING,100,0);ApplyStatus(SELF,KERRIGAN_ASSIMILATION,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="488d832e-8f34-48ee-a0c7-45f58568fbc6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Arthas_FrostmourneHungers" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ba1c473g0cfagf478g4046g5f20983e77d1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc47ab65ag6141g803fgb88cg73337a8ebd10" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha2f3dfa8g9f0egedb3g344eg8723c6277f88" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Arthas_FrostmourneHungers" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Arthas_DeathCoil);UnlockSpell(Projectile_Arthas_HowlingBlast);UnlockSpell(Shout_Arthas_FrozenTempest);IF(IsMeleeWeaponAttack()):CharacterWeaponDamage(1d4,Cold);Resistance(Cold, Resistant)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0880eea3-d8d7-4ed9-bac7-eeb9dc60adf9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kharazim_IronFists" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb125c28dg1c62g29c2g493bg3aed5b9fd6d3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd70a27a7g5f5eg2b90g43d6g3459fafafe1d" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h993ce535g2e8bge9c8g7c52g24b7d2882307" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Kharazim_IronFists" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Rush_Kharazim_RadiantDash);UnlockSpell(Shout_Kharazim_BreathOfHeaven);UnlockSpell(Target_Kharazim_DeadlyReach);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeUnarmedAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(RollDieAgainstDC(DiceType.d4,4)):DealDamage(1d10, Bludgeoning);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

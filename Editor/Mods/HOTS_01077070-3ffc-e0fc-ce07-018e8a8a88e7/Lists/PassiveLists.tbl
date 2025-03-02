@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="11fa382c-a1d2-45ba-913c-b13062365ce8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc445e54-9a93-405e-85fd-988397f17d85" />
+        <field name="Name" type="NameTableFieldDefinition" value="Heroes of the Storm" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Arthas_FrostmourneHungers,Diablo_BlackSoulstone,Kerrigan_Assimilation,Kharazim_IronFists,Raynor_GiveEmSomePepper,Uther_EternalDevotion," />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="FeatDescriptions">
+        <node id="root">
+            <children>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h1b3f77fbg0b7eg9174g3a0fgd7320ba3b88f" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h23baea55gb945g5918g0aebg55d89e3c5f39" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="YMS_HOTS"/>
+                    <attribute id="FeatId" type="guid" value="030822aa-716d-4276-9902-5ecb9d548e4e"/>
+                    <attribute id="UUID" type="guid" value="76c76355-ff52-4c58-b2ba-5c9257d7ac63"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,5 @@
+local __util = require 'larian.util'
+
+function DiabloCanImprovisedWeaponWeight()
+    return ConditionResult(context.Source.Strength * context.Source.Strength * 0.2 >= (GetLiftingWeight(context.Target, not IsInInventory(context.Target)) / 1500),{ConditionError("CanImprovisedWeaponWeight_False")})
+end

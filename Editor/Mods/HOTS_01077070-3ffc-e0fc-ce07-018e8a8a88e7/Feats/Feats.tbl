@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="7358629f-4319-48b7-a377-58cb7027df69">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="030822aa-716d-4276-9902-5ecb9d548e4e" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="YMS_HOTS" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,1,1,FeatASI);SelectPassives(cc445e54-9a93-405e-85fd-988397f17d85,1)" />
+        <field name="CanBeTakenMultipleTimes" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

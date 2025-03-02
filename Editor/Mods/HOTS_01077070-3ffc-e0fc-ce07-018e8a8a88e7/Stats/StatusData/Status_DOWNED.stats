@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="030d44f1-be8c-4538-9512-08111d49292a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="52dd988b-246a-43ca-b872-e5aae97a36fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DIABLO_BLACKSOULSTONE_DOWNED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bb1e3ba1-dab0-4f46-8c25-a7c62cf0eae3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Diablo_BlackSoulstone" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisablePortraitIndicator;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DIABLO_BLACKSOULSTONE);RegainHitPoints(Level+ConstitutionModifier,Guaranteed)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ResetCombatTurn();RestoreResource(Movement, 100%, 0);RestoreResource(BonusActionPoint, 100%, 0);RestoreResource(ActionPoint, 100%, 0);RestoreResource(ReactionActionPoint, 100%, 0)" />
+        <field name="OnSuccess" type="FunctorsTableFieldDefinition" value="RegainHitPoints(Level+ConstitutionModifier)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

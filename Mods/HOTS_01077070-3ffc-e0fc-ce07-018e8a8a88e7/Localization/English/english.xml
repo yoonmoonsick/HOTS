@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h23baea55gb945g5918g0aebg55d89e3c5f39" version="1">Heroes of the Storm</content>
+  <content contentuid="h1b3f77fbg0b7eg9174g3a0fgd7320ba3b88f" version="1">Long ago, the boundaries between worlds began to blur. In the Forgotten Realms, an ancient power stirred—a mysterious force known as the Nexus. From this convergence of dimensions emerged legendary Heroes drawn from distant lands.&lt;br&gt;&lt;br&gt;These exalted Heroes, each bearing a unique legacy and formidable abilities, come in many forms—warriors, mages, healers, and assassins.</content>
+  <content contentuid="h53d8394fgf7abg1e6bgdcc4g81c4688eceb4" version="2">Raynor: Renegade Commander</content>
+  <content contentuid="h6769af3egf0fbg2f8egea47gd3e7407bd944" version="5">Weapon Attacks now have a 25% chance to trigger a splash effect in a small area, dealing 1d10 Piercing damage to the primary target.</content>
+  <content contentuid="ha56ec556g8ff9gd069gd80dg59d97f8d99d3" version="1">Penetrating Round</content>
+  <content contentuid="hf950bce2g81fcgc0f6gd6bfg86996a46baa4" version="1">Shoots a penetrating projectile that deals damage to targets and knocks them back.</content>
+  <content contentuid="h33d51d87g10faga250g8c55g12991403ac0f" version="1">Inspire</content>
+  <content contentuid="h7143613fg2d22g54d3g2d75g5b80e0a63db9" version="1">All nearby allies can use their reaction to make one weapon attack.</content>
+  <content contentuid="haa8b17b9g792cg550eg1b91g4ca3de41554e" version="1">Adrenaline Rush</content>
+  <content contentuid="hfb932e65g84adge82fgd3dfg63a61ca88608" version="1">Regain 1d10 + level + Constitution Modifier amount of Hit Points.</content>
+  <content contentuid="h499ffaeag2a79g17e4gc05fg7f6a691ab6bf" version="1">Diablo: Lord of Terror</content>
+  <content contentuid="ha9bf389fga98ag7c00gfa99gb53ee398b550" version="2">The next time damage would reduce the affected entity to 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it remains conscious with Level plus Constitution Modifier hit point left.</content>
+  <content contentuid="h576b6027ga38dgb9ccgcc51gc5dca10b014e" version="1">Shadow Charge</content>
+  <content contentuid="hb78d141ege1e4gc7e8g7787g8428765cbd6c" version="3">Charge forward and attack the first enemy in your way. The target may be stunned.</content>
+  <content contentuid="hb200dfb1g52afg55e0g1d68g596dadc1e007" version="1">Fire Hands</content>
+  <content contentuid="hb3b13689g8785gd338g1ad9g6ad738770561" version="1">Overpower</content>
+  <content contentuid="h423bd8bcga98eg0ea0g35fbg09ed6344eca1" version="1">Pick up an item or creature and use it to make a melee attack. The target may be stunned.</content>
+  <content contentuid="h1d2fa80egdb0eg36afgfce9g6bc610788fa8" version="1">Black Soulstone</content>
+  <content contentuid="hac6c020fgec5dg61f1g36d5gee9407c31d01" version="1">Uther: The Lightbringer</content>
+  <content contentuid="ha28896f6g2746g1c0bg810bg8382248c0be4" version="2">When you heal another creature, it gains resistance against Bludgeoning, Piercing, and Slashing damage dealt by weapon attacks.</content>
+  <content contentuid="h652a3c60g9ce2gf77cg0169g0e54988447c6" version="2">Eternal Devotion</content>
+  <content contentuid="h93a37fb9g221bg370fge1e6gdca555e7a2b2" version="1">Has Resistance against Bludgeoning, Piercing, and Slashing damage.</content>
+  <content contentuid="h028f2521g73e2g8ef5g0539g8f5c446c9b18" version="1">Holy Light</content>
+  <content contentuid="hc46d422dg253dg7ff6gf154g02f8781355f8" version="1">Holy Radiance</content>
+  <content contentuid="hbd5d64f3gaf3ag98ddg74f5gc6e463926483" version="3">Release a wave of light to heal allies and damage enemies.</content>
+  <content contentuid="hc695a1f6g9d3eg1d58g2eccg22690068ee32" version="1">Hammer of Justice</content>
+  <content contentuid="h378215bcg99f3ga12bg02cag88ccc0162441" version="1">Heals the target and restores half of the healed amount to yourself.</content>
+  <content contentuid="h797201c2geb11g4314g2fbbg7aa3076c85ae" version="1">Kerrigan: Queen of Blades</content>
+  <content contentuid="hd11a8ff9gda46g1e83g5914gdbd3d313bb66" version="3">When you kill a hostile creature, you gain Temporary Hit Points.</content>
+  <content contentuid="h5858ab95g4cbbg2b3eg58b4g53b1fc6935e3" version="1">Assimilation</content>
+  <content contentuid="ha8427cdagbc66gf4f4gbe66gae3f4c37e8df" version="1">Gained &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to its Constitution &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; and Level combined.</content>
+  <content contentuid="h82ee28acgfbafg9d63g0475g9203bb3d5c2a" version="1">Unlock &lt;LSTag Type="Spell" Tooltip="Zone_Raynor_PenetratingRound"&gt;Penetrating Round&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Raynor_Inspire"&gt;Inspire&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Raynor_AdrenalineRush"&gt;Adrenaline Rush&lt;/LSTag&gt;.</content>
+  <content contentuid="he0d201efg0b4ag2aadg1c18gd49566a6cfdd" version="1">Unlock &lt;LSTag Type="Spell" Tooltip="Rush_Diablo_ShadowCharge"&gt;Shadow Charge&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Diablo_FireStomp"&gt;Fire Hands&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_Diablo_Overpower"&gt;Overpower&lt;/LSTag&gt;.</content>
+  <content contentuid="ha914af09g2167gb0e7gc53bg7ec2ba773eb5" version="1">Unlock &lt;LSTag Type="Spell" Tooltip="Target_Uther_HolyLight"&gt;Holy Light&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Uther_HolyRadiance"&gt;Holy Radiance&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Uther_HammerOfJustice"&gt;Hammer of Justice&lt;/LSTag&gt;.</content>
+  <content contentuid="hbaae2fb0gbc7bg852cg7dffg0ef84d295301" version="2">Unlock &lt;LSTag Type="Spell" Tooltip="Projectile_Kerrigan_Ravage"&gt;Ravage&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Kerrigan_ImpalingBlades"&gt;Impaling Blades&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Kerrigan_PrimalGrasp"&gt;Primal Grasp&lt;/LSTag&gt;.</content>
+  <content contentuid="h22346d51g5624g5053gef2aga9bfdb7458d4" version="1">Ravage</content>
+  <content contentuid="hea242f21g5474g0bd9g62fcg88e899a150e1" version="1">Leap down unto a foe, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h4906a6bag5822g58ccgf40fge8d65435edee" version="1">Impaling Blades</content>
+  <content contentuid="hff8e6ff0g7b1ag5aecga7f2gd54b2b0f65d0" version="1">Summons thorns that grow from the ground, dealing damage. The target may be stunned.</content>
+  <content contentuid="hacd3cdb5g8937gb1beg1296geb4c0da8eba2" version="1">Primal Grasp</content>
+  <content contentuid="h110cde67gd4e1g6d9cg66begf756b01b3285" version="1">Deals damage to the enemy and pulls them in.</content>
+  <content contentuid="ha21162e7gca51gb1a2g903fg6d9a8da39a1b" version="1">Ravage</content>
+  <content contentuid="h8a694b4dg960eg1f4bgcd46g078848e66b15" version="1">Leap down unto a foe, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h8ba1c473g0cfagf478g4046g5f20983e77d1" version="1">Arthas: The Lich King</content>
+  <content contentuid="hc47ab65ag6141g803fgb88cg73337a8ebd10" version="2">Melee weapon attacks deal an additional 1d4 cold damage. You Have Resistance to Cold Damage.</content>
+  <content contentuid="ha2f3dfa8g9f0egedb3g344eg8723c6277f88" version="1">Unlock &lt;LSTag Type="Spell" Tooltip="Projectile_Arthas_DeathCoil"&gt;Death Coil&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_Arthas_HowlingBlast"&gt;Howling Blast&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Arthas_FrozenTempest"&gt;Frozen Tempest&lt;/LSTag&gt;.</content>
+  <content contentuid="hc1265595g79dcgaddeg7948g2c8bffb1539a" version="1">Howling Blast</content>
+  <content contentuid="h18a72f45g2dbdg9abeg6593g589957e7c0d1" version="1">Deals cold damage and may freeze the target.</content>
+  <content contentuid="h3ca217c5ga218gfc9fgb478g6314372cd8f8" version="1">Death Coil</content>
+  <content contentuid="h8d7ee503g408ag32beg3ae9g78cb30992108" version="1">Frozen Tempest</content>
+  <content contentuid="h6b0a0dbbg7865g0a48g6a8aga9bcbddd53bc" version="1">Emits an aura that deals cold damage to nearby enemies.</content>
+  <content contentuid="h7a465004ga8f8gc0bbg25c0g49fd305fb0c2" version="1">Frozen Tempest</content>
+  <content contentuid="h12551649g758dgabf2g32b3g233f5eec47b1" version="1">Frozen Tempest</content>
+  <content contentuid="hb125c28dg1c62g29c2g493bg3aed5b9fd6d3" version="1">Kharazim: Veradani Monk</content>
+  <content contentuid="hd70a27a7g5f5eg2b90g43d6g3459fafafe1d" version="1">Melee Unarmed Attacks now have a 25% chance to deal 1d10 Bludgeoning damage to the target.</content>
+  <content contentuid="h993ce535g2e8bge9c8g7c52g24b7d2882307" version="2">Unlock &lt;LSTag Type="Spell" Tooltip="Rush_Kharazim_RadiantDash"&gt;Radiant Dash&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Kharazim_BreathOfHeaven"&gt;Breath of Heaven&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Kharazim_DeadlyReach"&gt;Deadly Reach&lt;/LSTag&gt;.</content>
+  <content contentuid="h41a09f8cg5d7dg624cge78eg5c02be789e66" version="1">Deadly Reach</content>
+  <content contentuid="he60b9a1eg254cg542egd949ga0148c83324e" version="1">Radiant Dash</content>
+  <content contentuid="h1a808914ge6ffg88edg8479g174876bb970f" version="1">Dash quickly to the target. Heals if the target is an ally, and deals damage if the target is an enemy.</content>
+  <content contentuid="hdc990be2ge2dega668gf44dga1d4beafb25f" version="1">Breath of Heaven</content>
+  <content contentuid="h74b578adg2f9dg6bf1g0791g32a788b0023c" version="1">Heal yourself and all nearby allies and increase their movement speed.</content>
+</contentList>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29f16b28-b455-48b2-8ebc-8956a20b27c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAYNOR_INSPIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="481af2a9-8780-4d66-a1b3-64c8a69df692" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33d51d87g10faga250g8c55g12991403ac0f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7143613fg2d22g54d3g2d75g5b80e0a63db9" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RAYNOR_INSPIRE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CommanderStrike_Attack_Raynor);UnlockSpellVariant(SpellId('Target_CommanderStrike_Attack_Raynor'),ModifyIconGlow());UnlockSpell(Projectile_CommanderStrike_Attack_Raynor);UnlockSpellVariant(SpellId('Projectile_CommanderStrike_Attack_Raynor'),ModifyIconGlow())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Raynor_Inspire" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Blue" enumeration_type_name="FormatStringColor" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="845f6b50-0f74-4c39-8a2a-dc9b3a160703" />
+        <field name="Name" type="NameTableFieldDefinition" value="DIABLO_BLACKSOULSTONE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e328d67-cf61-4705-b67c-47713b3fbf3a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d2fa80egdb0eg36afgfce9g6bc610788fa8" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(Level);Level+ConstitutionModifier" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Diablo_BlackSoulstone" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DownedStatus(DIABLO_BLACKSOULSTONE_DOWNED,10)" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Red" enumeration_type_name="FormatStringColor" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eaf4b5cd-5105-4b79-9dda-6d475485e9e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="UTHER_DEVOTION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h652a3c60g9ce2gf77cg0169g0e54988447c6" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h93a37fb9g221bg370fge1e6gdca555e7a2b2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Uther_EternalDevotion" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Buff_MO" />
+        <field name="StackId" type="StringTableFieldDefinition" value="UTHER_DEVOTION" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageResistance(Bludgeoning);WeaponDamageResistance(Slashing);WeaponDamageResistance(Piercing)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c1e8b65e-f8ba-4b9a-ac55-f7edbb328633" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Gold" enumeration_type_name="FormatStringColor" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7bf3002-a71b-4a51-8ed5-5f9b27350e15" />
+        <field name="Name" type="NameTableFieldDefinition" value="KERRIGAN_ASSIMILATION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2ea8a181-7411-4d55-9d8c-e8a5094d411f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5858ab95g4cbbg2b3eg58b4g53b1fc6935e3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8427cdagbc66gf4f4gbe66gae3f4c37e8df" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Kerrigan_Assimilation" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Purple" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ConstitutionModifier+Level)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91d3fb68-f983-42ca-9f62-0a599dc7bf1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="FROZEN_TEMPEST_AURA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="74aa7185-5a6e-49fe-bda9-c077b485f5b7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a465004ga8f8gc0bbg25c0g49fd305fb0c2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Arthas_FrozenTempest" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="LightBlue" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FROZEN_TEMPEST_AURA" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(FROZEN_TEMPEST,100,-1)" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.Level,Cold)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="2b51e708-77ad-40c3-b0a1-ff47d70a5518" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8497b42-efb1-4ad5-aa4b-7f0a26c636f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="FROZEN_TEMPEST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="76edfaee-aa3b-497c-9ab3-7d08f80d5a7a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h12551649g758dgabf2g32b3g233f5eec47b1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Arthas_FrozenTempest" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="LightBlue" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_SpiritGuardian_ST" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_SpiritGuardian_ST_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FROZEN_TEMPEST_AURA" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.Level,Cold)" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('FROZEN_TEMPEST_DAMAGE_RECEIVED')):DealDamage(Cause.Level,Cold,Magical);IF(not HasStatus('FROZEN_TEMPEST_DAMAGE_RECEIVED')):ApplyStatus(FROZEN_TEMPEST_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('FROZEN_TEMPEST_DAMAGE_RECEIVED')):DealDamage(Cause.Level/2,Cold,Magical);IF(not HasStatus('FROZEN_TEMPEST_DAMAGE_RECEIVED')):ApplyStatus(FROZEN_TEMPEST_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('FROZEN_TEMPEST_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'FROZEN_TEMPEST_DAMAGE_RECEIVED', 0.1)):DealDamage(Cause.Level,Cold,Magical);ApplyStatus(FROZEN_TEMPEST_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('FROZEN_TEMPEST_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'FROZEN_TEMPEST_DAMAGE_RECEIVED', 0.1)):DealDamage(Cause.Level/2,Cold,Magical);ApplyStatus(FROZEN_TEMPEST_DAMAGE_RECEIVED,100,1)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="7d30207d-4c3f-4f01-8e50-aaff803e1992" />
+        <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="7d30207d-4c3f-4f01-8e50-aaff803e1992" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8e49dba-e5af-4e00-acfa-25b95371de6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="FROZEN_TEMPEST_DAMAGE_RECEIVED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="13feb980-bffb-4a77-b27a-b3b00e9daa65" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

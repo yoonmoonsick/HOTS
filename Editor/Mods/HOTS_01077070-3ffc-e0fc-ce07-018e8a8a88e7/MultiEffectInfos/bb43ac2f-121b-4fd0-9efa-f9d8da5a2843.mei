@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="bb43ac2f-121b-4fd0-9efa-f9d8da5a2843" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="Kerrigan_ImpalingBlades">
+  <EffectInfo UUID="98718b9e-b358-4098-83e7-a4d8147dccaf" EffectResourceGuid="78efa940-e002-8aa0-7960-74606c7fd34c" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>
