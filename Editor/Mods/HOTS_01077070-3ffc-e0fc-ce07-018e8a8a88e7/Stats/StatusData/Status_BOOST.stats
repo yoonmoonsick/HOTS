@@ -80,7 +80,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c8497b42-efb1-4ad5-aa4b-7f0a26c636f5" />
         <field name="Name" type="NameTableFieldDefinition" value="FROZEN_TEMPEST" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="76edfaee-aa3b-497c-9ab3-7d08f80d5a7a" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h12551649g758dgabf2g32b3g233f5eec47b1" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a465004ga8f8gc0bbg25c0g49fd305fb0c2" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Icon" type="StringTableFieldDefinition" value="Arthas_FrozenTempest" />

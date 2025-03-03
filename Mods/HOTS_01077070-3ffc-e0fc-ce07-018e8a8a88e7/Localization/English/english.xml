@@ -35,8 +35,6 @@
   <content contentuid="he0d201efg0b4ag2aadg1c18gd49566a6cfdd" version="1">Unlock &lt;LSTag Type="Spell" Tooltip="Rush_Diablo_ShadowCharge"&gt;Shadow Charge&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Diablo_FireStomp"&gt;Fire Hands&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_Diablo_Overpower"&gt;Overpower&lt;/LSTag&gt;.</content>
   <content contentuid="ha914af09g2167gb0e7gc53bg7ec2ba773eb5" version="1">Unlock &lt;LSTag Type="Spell" Tooltip="Target_Uther_HolyLight"&gt;Holy Light&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Uther_HolyRadiance"&gt;Holy Radiance&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Uther_HammerOfJustice"&gt;Hammer of Justice&lt;/LSTag&gt;.</content>
   <content contentuid="hbaae2fb0gbc7bg852cg7dffg0ef84d295301" version="2">Unlock &lt;LSTag Type="Spell" Tooltip="Projectile_Kerrigan_Ravage"&gt;Ravage&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Kerrigan_ImpalingBlades"&gt;Impaling Blades&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Kerrigan_PrimalGrasp"&gt;Primal Grasp&lt;/LSTag&gt;.</content>
-  <content contentuid="h22346d51g5624g5053gef2aga9bfdb7458d4" version="1">Ravage</content>
-  <content contentuid="hea242f21g5474g0bd9g62fcg88e899a150e1" version="1">Leap down unto a foe, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
   <content contentuid="h4906a6bag5822g58ccgf40fge8d65435edee" version="1">Impaling Blades</content>
   <content contentuid="hff8e6ff0g7b1ag5aecga7f2gd54b2b0f65d0" version="1">Summons thorns that grow from the ground, dealing damage. The target may be stunned.</content>
   <content contentuid="hacd3cdb5g8937gb1beg1296geb4c0da8eba2" version="1">Primal Grasp</content>
@@ -52,7 +50,6 @@
   <content contentuid="h8d7ee503g408ag32beg3ae9g78cb30992108" version="1">Frozen Tempest</content>
   <content contentuid="h6b0a0dbbg7865g0a48g6a8aga9bcbddd53bc" version="1">Emits an aura that deals cold damage to nearby enemies.</content>
   <content contentuid="h7a465004ga8f8gc0bbg25c0g49fd305fb0c2" version="1">Frozen Tempest</content>
-  <content contentuid="h12551649g758dgabf2g32b3g233f5eec47b1" version="1">Frozen Tempest</content>
   <content contentuid="hb125c28dg1c62g29c2g493bg3aed5b9fd6d3" version="1">Kharazim: Veradani Monk</content>
   <content contentuid="hd70a27a7g5f5eg2b90g43d6g3459fafafe1d" version="1">Melee Unarmed Attacks now have a 25% chance to deal 1d10 Bludgeoning damage to the target.</content>
   <content contentuid="h993ce535g2e8bge9c8g7c52g24b7d2882307" version="2">Unlock &lt;LSTag Type="Spell" Tooltip="Rush_Kharazim_RadiantDash"&gt;Radiant Dash&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Kharazim_BreathOfHeaven"&gt;Breath of Heaven&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Kharazim_DeadlyReach"&gt;Deadly Reach&lt;/LSTag&gt;.</content>
@@ -61,4 +58,8 @@
   <content contentuid="h1a808914ge6ffg88edg8479g174876bb970f" version="1">Dash quickly to the target. Heals if the target is an ally, and deals damage if the target is an enemy.</content>
   <content contentuid="hdc990be2ge2dega668gf44dga1d4beafb25f" version="1">Breath of Heaven</content>
   <content contentuid="h74b578adg2f9dg6bf1g0791g32a788b0023c" version="1">Heal yourself and all nearby allies and increase their movement speed.</content>
+  <content contentuid="hacee608ag8a8eg06c2gba02g186943bdd33d" version="1">It strikes the enemy with a hammer, potentially stunning them.</content>
+  <content contentuid="h4871cc3dg670bg4dfegabe5g48e482b9fc9e" version="1">It delivers a fierce four-hit combo to deal damage.</content>
+  <content contentuid="hd4853086g6d6cg7db8g6affgfd739fd4d64e" version="1">Fires a corrupted essence to deal damage.</content>
+  <content contentuid="h86787ed3gab94gb1c3g038cgf18e73ca420a" version="1">It emits fire from your hands, dealing damage to the front.</content>
 </contentList>

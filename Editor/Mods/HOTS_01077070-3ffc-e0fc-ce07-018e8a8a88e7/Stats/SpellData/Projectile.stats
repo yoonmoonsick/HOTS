@@ -69,7 +69,7 @@
         <field name="Trajectories" type="StringTableFieldDefinition" value="781dbc16-4d57-4296-95f5-d07410c8a51b" />
         <field name="Icon" type="StringTableFieldDefinition" value="Arthas_DeathCoil" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3ca217c5ga218gfc9fgb478g6314372cd8f8" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4853086g6d6cg7db8g6affgfd739fd4d64e" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Necrotic,Magical);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />

@@ -50,7 +50,7 @@ data "SpellFail" "DealDamage((LevelMapValue(D10Cantrip)+ConstitutionModifier)/2,
 data "TargetConditions" "not Dead()"
 data "Icon" "Diablo_FireStomp"
 data "DisplayName" "hb200dfb1g52afg55e0g1d68g596dadc1e007;1"
-data "Description" ""
+data "Description" "h86787ed3gab94gb1c3g038cgf18e73ca420a;1"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D10Cantrip),Fire);DealDamage(ConstitutionModifier,Fire)"
 data "TooltipUpcastDescription" ""
 data "TooltipUpcastDescriptionParams" ""

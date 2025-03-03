@@ -62,6 +62,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bced542c-867a-46e2-a2aa-e652db749c61" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="3a1161a5-ecfe-40f1-ac2a-c75a5e4d147e" />
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="dee9d375-0113-42c2-b8de-7ab45fe8750b" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hacee608ag8a8eg06c2gba02g186943bdd33d" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -121,6 +122,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="57a6a6b3-a088-4b90-9777-683963616236" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="dc8efa81-182b-4446-82ac-5e0e4c5f87d0" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4871cc3dg670bg4dfegabe5g48e482b9fc9e" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

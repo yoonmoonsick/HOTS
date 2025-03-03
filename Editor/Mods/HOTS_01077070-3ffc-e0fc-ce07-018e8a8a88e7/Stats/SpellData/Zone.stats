@@ -62,7 +62,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead()" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h86787ed3gab94gb1c3g038cgf18e73ca420a" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
