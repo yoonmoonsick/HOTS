@@ -87,5 +87,20 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(RollDieAgainstDC(DiceType.d4,4)):DealDamage(1d10, Bludgeoning);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2696a34a-1fe3-40ef-8734-712694b123a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Illidan_BetrayersThirst" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5b602469gea84g3b11gc5deg2fcdea86f71b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h24740cf2g7310gd8c9g85aegb63a008de5c6" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf0bb9878g4711g4c43g767cge68927aae288" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Illidan_BetrayersThirst" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Illidan_Dive);UnlockSpell(Rush_Illidan_SweepingStrike);UnlockSpell(Shout_Illidan_Evasion);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeWeaponAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(SELF,1d4)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

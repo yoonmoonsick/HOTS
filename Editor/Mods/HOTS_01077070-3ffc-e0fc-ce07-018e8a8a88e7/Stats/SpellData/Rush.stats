@@ -16,7 +16,7 @@
         <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="WeaponFlags" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value=";" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -36,7 +36,22 @@
         <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="WeaponFlags" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value=";" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55403b58-be3b-4d50-bbf9-3ed81d590134" />
+        <field name="Name" type="NameTableFieldDefinition" value="Illidan_SweepingStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a39da9b8-8f0c-4098-984c-4e2d9121d2d8" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Illidan_SweepingStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf9962ee8g5041g44f6g99e1g45ade0935a37" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h463f7bdeg3c31g45f5g3a30g74851ac46106" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnlyHit1Target" type="BoolTableFieldDefinition" value="False" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

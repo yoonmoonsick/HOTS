@@ -62,4 +62,12 @@
   <content contentuid="h4871cc3dg670bg4dfegabe5g48e482b9fc9e" version="1">It delivers a fierce four-hit combo to deal damage.</content>
   <content contentuid="hd4853086g6d6cg7db8g6affgfd739fd4d64e" version="1">Fires a corrupted essence to deal damage.</content>
   <content contentuid="h86787ed3gab94gb1c3g038cgf18e73ca420a" version="1">It emits fire from your hands, dealing damage to the front.</content>
+  <content contentuid="h5b602469gea84g3b11gc5deg2fcdea86f71b" version="1">Illidan: The Betrayer</content>
+  <content contentuid="h24740cf2g7310gd8c9g85aegb63a008de5c6" version="1">When a melee weapon attack hits, you regain 1d4 hit points.</content>
+  <content contentuid="hf0bb9878g4711g4c43g767cge68927aae288" version="1">Unlock &lt;LSTag Type="Spell" Tooltip="Projectile_Illidan_Dive"&gt;Dive&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Rush_Illidan_SweepingStrike"&gt;Sweeping Strike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Illidan_Evasion"&gt;Evasion&lt;/LSTag&gt;.</content>
+  <content contentuid="hb4a1539bgfbddg79beg4fbbgd180affb9ad3" version="1">Dive</content>
+  <content contentuid="hadb66057gb8dag8af6gea1fgaec30602db49" version="1">Leap down unto a foe.</content>
+  <content contentuid="hf9962ee8g5041g44f6g99e1g45ade0935a37" version="1">Swepping Strike</content>
+  <content contentuid="h463f7bdeg3c31g45f5g3a30g74851ac46106" version="1">Charge forward and attack all enemies in your way.</content>
+  <content contentuid="h3f60ac3egedb9g1857g61a3gcaf09b8651eb" version="1">Evasion</content>
 </contentList>

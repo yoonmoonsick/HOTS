@@ -52,6 +52,7 @@
         <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_None" enumeration_type_name="SpellCategoryFlags" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AddRangeFromAbility" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -112,6 +113,23 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ae6303e-43ff-481d-9caa-656b59805a65" />
+        <field name="Name" type="NameTableFieldDefinition" value="Illidan_Dive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5524142a-4888-46db-b8b9-2bc6b991a3ee" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Illidan_Dive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb4a1539bgfbddg79beg4fbbgd180affb9ad3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadb66057gb8dag8af6gea1fgaec30602db49" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -36,6 +36,20 @@ It emits fire from your hands, dealing damage to the front.
 ### E: Overpower
 Pick up an item or creature and use it to make a melee attack. The target may be stunned.
 
+## Illidan: The Betrayer
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Illidan_BetrayersThirst.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Illidan_Dive.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Illidan_SweepingStrike.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Illidan_Evasion.png?raw=true)
+### Passive: Betrayers Thirst
+When a melee weapon attack hits, you regain 1d4 hit points.
+### Q: Dive
+Leap down unto a foe.
+### W: Sweeping Strike
+Charge forward and attack all enemies in your way.
+### E: Evasion
+Attackers have disadvantage on attack roll against you.
+
 ## Kerrigan: Queen of Blades
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kerrigan_Assimilation.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kerrigan_Ravage.png?raw=true)
