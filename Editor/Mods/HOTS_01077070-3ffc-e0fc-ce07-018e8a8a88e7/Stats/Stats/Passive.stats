@@ -102,5 +102,35 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(SELF,1d4)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9357f9f-d1d6-447b-8373-5c8f7777a1a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Zeratul_PermanentCloak" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ecfcccag0618ga59cge997g5f8ba983d0f6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha45e3266g3bd2ga1cagbce4g60f889dc781c" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h6d9fc128ga74eg653bgbbb3g62d90b6ecfbd" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zeratul_PermanentCloak" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Zeratul_Cleave);UnlockSpell(Projectile_Zeratul_SingularitySpike);UnlockSpell(Shout_Zeratul_Blink);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnObscurityChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasObscuredState(ObscuredState.HeavilyObscured) and not HasStatus('SEE_INVISIBILITY_REVEAL') and not HasStatus('FAERIE_FIRE') and not HasStatus('BRANDING_SMITE')" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnObscurityChanged)):ApplyStatus(INVISIBILITY,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a1c39f9-b8b3-4d94-ad07-f36e155ca009" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thrall_FrostwolfResilience" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6038011cg9b7cg5755g6dfag7d28bd429822" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb7cc95dg70bag8455g664bge935d00177c3" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0656c73cgeeb1gfb33gbec6g1702f0af3d8a" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Thrall_FrostwolfResilience" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Thrall_ChainLightning);UnlockSpell(Target_Thrall_FeralSpirit);UnlockSpell(Shout_Thrall_Windfury);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(RollDieAgainstDC(DiceType.d4,4)):RegainHitPoints(SELF,1d4)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -92,6 +92,19 @@ All nearby allies can use their reaction to make one weapon attack.
 ### E: Adrenaline Rush
 Regain 1d10 + level + Constitution Modifier amount of Hit Points.
 
+## Thrall: Warchief of the Horde
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Thrall_FrostwolfResilience.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Thrall_ChainLightning.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Thrall_FeralSpirit.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Thrall_Windfury.png?raw=true)
+### Passive: Frostwolf Resilience
+When you deal damage to an enemy, there is a 25% chance to restore a small amount of Hit Points.
+### Q: Chain Lightning
+### W: Feral Spirit
+Summons a wolf companion.
+### E: Windfury
+Gain a disengange and movement speed boost. You can use a Windfury Strike, hitting with your weapon three times.
+
 ## Uther: The Lightbringer
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Uther_EternalDevotion.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Uther_HolyLight.png?raw=true)
@@ -105,3 +118,15 @@ Heals the target and restores half of the healed amount to yourself.
 Release a wave of light to heal allies and damage enemies.
 ### E: Hammer of Justice
 It strikes the enemy with a hammer, potentially stunning them.
+
+## Zeratul: Dark Prelate
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Zeratul_PermanentCloak.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Zeratul_Cleave.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Zeratul_SingularitySpike.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Zeratul_Blink.png?raw=true)
+### Passive: Permanent Cloak
+When you heal another creature, it gains resistance against Bludgeoning, Piercing, and Slashing damage dealt by weapon attacks.
+### Q: Cleave
+### W: Singularity Spike
+Flings a Singularity Spike that sticks to the first enemy hit.
+### E: Blink

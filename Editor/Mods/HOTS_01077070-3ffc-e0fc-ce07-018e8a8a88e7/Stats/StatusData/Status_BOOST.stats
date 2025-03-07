@@ -105,6 +105,26 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f8e49dba-e5af-4e00-acfa-25b95371de6b" />
         <field name="Name" type="NameTableFieldDefinition" value="FROZEN_TEMPEST_DAMAGE_RECEIVED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="13feb980-bffb-4a77-b27a-b3b00e9daa65" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="LightBlue" enumeration_type_name="FormatStringColor" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f378f45a-64d1-4219-82ce-204b4eb2cad3" />
+        <field name="Name" type="NameTableFieldDefinition" value="THRALL_WINDFURY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a791531-a55c-4a90-a65b-5aa5ff395ba6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ddb7810ga561gf237g9d1cge4fd543f15d3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb9ee3899g28efg490cg9a0fg13901f014237" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Thrall_Windfury" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Air" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Dash_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Dash_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="THRALL_WINDFURY" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ActionResourceMultiplier(Movement,150,0);UnlockSpell(Target_Thrall_WindfuryStrike)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

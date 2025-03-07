@@ -125,5 +125,36 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4871cc3dg670bg4dfegabe5g48e482b9fc9e" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="528c3f99-8d22-4cff-91fc-cc87e27bec67" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thrall_FeralSpirit" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="979af1b5-c725-4ad1-953f-d0490cc7f989" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not CharacterLevelGreaterThan(5)):Summon(9beee5c9-279e-49d8-a4a8-18f9ee0b1519,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(5) and not CharacterLevelGreaterThan(7)):Summon(b428c4e0-d3ca-449c-a5c5-9e0fb310081a,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(7) and not CharacterLevelGreaterThan(8)):Summon(74a96845-f868-4843-8941-9dfa27be92ed,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(11)):Summon(557fec99-a8d7-466e-8b33-517082e5d8fb,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(11)):Summon(62fd6540-17dd-405e-b305-1d88d77e8a08,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_WOLF,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="6" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Thrall_FeralSpirit" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc43ff536gcc33gdff9ga27fga4de105a02a5" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2359c1a0-c8dd-4ded-8c83-80b4fac64098" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thrall_WindfuryStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SELF,THRALL_WINDFURY)" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Thrall_Windfury" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb97b7280gb8a3g0e9ag5431gaee6fa3117d1" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_ConcussiveSmash" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_ConcussiveSmash" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:0" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

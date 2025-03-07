@@ -136,6 +136,44 @@
         <field name="FXScale" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d22b072c-466c-4e83-a692-6db08d9e1a54" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d983839-1e7b-49b4-b566-3e21f6504047" />
+        <field name="Name" type="NameTableFieldDefinition" value="Zeratul_Cleave" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e109732d-f289-475b-a692-ae3736bb9725" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zeratul_Cleave" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h950052d1g72d5gaa9bg30f3gf6ceb87be2b3" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d22b072c-466c-4e83-a692-6db08d9e1a54" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d71543d8-4afe-4f2a-bcd0-e8b88354299e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Zeratul_Blink" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5030667e-3cb4-4d5f-9bba-29c095b30dff" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Zeratul_Blink" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d22b072c-466c-4e83-a692-6db08d9e1a54" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f3277c4-ac2a-4707-bf50-1393454be870" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thrall_Windfury" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="98f7d181-873d-42a7-9534-e0c3d62c0423" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(THRALL_WINDFURY,100,1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Thrall_Windfury" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ddb7810ga561gf237g9d1cge4fd543f15d3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb9ee3899g28efg490cg9a0fg13901f014237" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(THRALL_WINDFURY,100,1);" />
       </fields>
     </stat_object>
   </stat_objects>

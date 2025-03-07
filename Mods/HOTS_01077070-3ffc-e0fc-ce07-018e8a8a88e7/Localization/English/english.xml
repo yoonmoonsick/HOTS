@@ -70,4 +70,18 @@
   <content contentuid="hf9962ee8g5041g44f6g99e1g45ade0935a37" version="1">Swepping Strike</content>
   <content contentuid="h463f7bdeg3c31g45f5g3a30g74851ac46106" version="1">Charge forward and attack all enemies in your way.</content>
   <content contentuid="h3f60ac3egedb9g1857g61a3gcaf09b8651eb" version="1">Evasion</content>
+  <content contentuid="h7ecfcccag0618ga59cge997g5f8ba983d0f6" version="1">Zeratul: Dark Prelate</content>
+  <content contentuid="ha45e3266g3bd2ga1cagbce4g60f889dc781c" version="1">While you are in an area that is Lightly or Heavily Obscured, you gain the Invisible condition against any creature.</content>
+  <content contentuid="h6d9fc128ga74eg653bgbbb3g62d90b6ecfbd" version="2">Unlock &lt;LSTag Type="Spell" Tooltip="Shout_Zeratul_Cleave"&gt;Cleave&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_Zeratul_SingularitySpike"&gt;Singularity Spike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Zeratul_Blink"&gt;Blink&lt;/LSTag&gt;.</content>
+  <content contentuid="h950052d1g72d5gaa9bg30f3gf6ceb87be2b3" version="1">Cleave</content>
+  <content contentuid="h618a22acg2993gcaa9g44b6gf8a1b93edf22" version="1">Singularity Spike</content>
+  <content contentuid="hf81e9447g7bf6g7263g8693gae3af25ba112" version="1">Flings a Singularity Spike that sticks to the first enemy hit.</content>
+  <content contentuid="h6038011cg9b7cg5755g6dfag7d28bd429822" version="1">Thrall: Warchief of the Horde</content>
+  <content contentuid="hcb7cc95dg70bag8455g664bge935d00177c3" version="1">When you deal damage to an enemy, there is a 25% chance to restore a small amount of Hit Points.</content>
+  <content contentuid="h0656c73cgeeb1gfb33gbec6g1702f0af3d8a" version="4">Unlock &lt;LSTag Type="Spell" Tooltip="Projectile_Thrall_ChainLightning"&gt;Chain Lightning&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Thrall_FeralSpirit"&gt;Feral Spirit&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Thrall_Windfury"&gt;Windfury&lt;/LSTag&gt;.</content>
+  <content contentuid="h266850f1gf412ge341g87bageb28b73dfc27" version="1">Chain Lightning</content>
+  <content contentuid="hc43ff536gcc33gdff9ga27fga4de105a02a5" version="1">Feral Spirit</content>
+  <content contentuid="h8ddb7810ga561gf237g9d1cge4fd543f15d3" version="1">Windfury</content>
+  <content contentuid="hb9ee3899g28efg490cg9a0fg13901f014237" version="1">Gain a disengange and movement speed boost. You can use a Windfury Strike, hitting with your weapon three times.</content>
+  <content contentuid="hb97b7280gb8a3g0e9ag5431gaee6fa3117d1" version="1">Windfury Strike</content>
 </contentList>
