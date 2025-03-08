@@ -8,6 +8,8 @@ These exalted Heroes, each bearing a unique legacy and formidable abilities, com
 
 In this reimagined world, the Nexus is both a wellspring of power and a harbinger of chaos. As ancient legends awaken and new rivalries ignite, alliances are forged in the heat of battle, and destinies are remade. Their deeds will echo through the ages, marking the dawn of a renewed era of strife and glory.
 
+---
+
 ## Arthas: The Lich King
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Arthas_FrostmourneHungers.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Arthas_DeathCoil.png?raw=true)
@@ -21,6 +23,8 @@ Fires a corrupted essence to deal damage.
 Deals cold damage and may freeze the target.
 ### E: Frozen Tempest
 Emits an aura that deals cold damage to nearby enemies.
+
+---
 
 ## Diablo: Lord of Terror
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Diablo_BlackSoulstone.png?raw=true)
@@ -36,6 +40,8 @@ It emits fire from your hands, dealing damage to the front.
 ### E: Overpower
 Pick up an item or creature and use it to make a melee attack. The target may be stunned.
 
+---
+
 ## Illidan: The Betrayer
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Illidan_BetrayersThirst.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Illidan_Dive.png?raw=true)
@@ -49,6 +55,8 @@ Leap down unto a foe.
 Charge forward and attack all enemies in your way.
 ### E: Evasion
 Attackers have disadvantage on attack roll against you.
+
+---
 
 ## Kael'thas: The Sun King
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kaelthas_VerdantSpheres.png?raw=true)
@@ -64,6 +72,8 @@ Deals continuous fire damage to the target.
 ### E: Gravity Lapse
 Make a creature to fall Prone on its turn.
 
+---
+
 ## Kerrigan: Queen of Blades
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kerrigan_Assimilation.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kerrigan_Ravage.png?raw=true)
@@ -77,6 +87,8 @@ Leap down unto a foe, knocking them Prone.
 Summons thorns that grow from the ground, dealing damage. The target may be stunned.
 ### E: Primal Grasp
 Deals damage to the enemy and pulls them in.
+
+---
 
 ## Kharazim: Veradani Monk
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kharazim_IronFists.png?raw=true)
@@ -92,6 +104,8 @@ Heal yourself and all nearby allies and increase their movement speed.
 ### E: Deadly Reach
 It delivers a fierce four-hit combo to deal damage.
 
+---
+
 ## Nova: Dominion Ghost
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Nova_PermanentCloak.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Nova_Snipe.png?raw=true)
@@ -105,6 +119,8 @@ Deals powerful Piercing damage.
 Makes the target vulnerable to piercing damage.
 ### E: Holo Decoy
 Creates three mirror images.
+
+---
 
 ## Raynor: Renegade Commander
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Raynor_GiveEmSomePepper.png?raw=true)
@@ -120,6 +136,8 @@ All nearby allies can use their reaction to make one weapon attack.
 ### E: Adrenaline Rush
 Regain 1d10 + level + Constitution Modifier amount of Hit Points.
 
+---
+
 ## Thrall: Warchief of the Horde
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Thrall_FrostwolfResilience.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Thrall_ChainLightning.png?raw=true)
@@ -133,6 +151,8 @@ Deals lightning damage to the target and surrounding creatures.
 Summons a wolf companion.
 ### E: Windfury
 Gain a disengange and movement speed boost. You can use a Windfury Strike, hitting with your weapon three times.
+
+---
 
 ## Uther: The Lightbringer
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Uther_EternalDevotion.png?raw=true)
@@ -148,6 +168,8 @@ Release a wave of light to heal allies and damage enemies.
 ### E: Hammer of Justice
 It strikes the enemy with a hammer, potentially stunning them.
 
+---
+
 ## Tyrael: Archangel of Justice
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Tyrael_ArchangelWrath.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Tyrael_EldruinMight.png?raw=true)
@@ -161,6 +183,8 @@ Summons an illusion of an angel wielding El'Druin.
 Increases the maximum Hit Points of allies.
 ### E: Smite
 Swing your weapon, dealing radiant damage.
+
+---
 
 ## Zeratul: Dark Prelate
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Zeratul_PermanentCloak.png?raw=true)
