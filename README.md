@@ -58,7 +58,7 @@ Attackers have disadvantage on attack roll against you.
 ### Passive: Betrayers Thirst
 Spells you cast and attacks you make ignore Resistance to Fire damage. In addition, when you deal Fire damage with a spell, you cannot roll a 1. 
 ### Q: Flamestrike
-
+Deals fire damage to creatures within range.
 ### W: Living Bomb
 Deals continuous fire damage to the target.
 ### E: Gravity Lapse
@@ -100,6 +100,7 @@ It delivers a fierce four-hit combo to deal damage.
 ### Passive: Permanent Cloak
 When you heal another creature, it gains resistance against Bludgeoning, Piercing, and Slashing damage dealt by weapon attacks.
 ### Q: Snipe
+Deals powerful Piercing damage.
 ### W: Pinning Shot
 Makes the target vulnerable to piercing damage.
 ### E: Holo Decoy
@@ -127,6 +128,7 @@ Regain 1d10 + level + Constitution Modifier amount of Hit Points.
 ### Passive: Frostwolf Resilience
 When you deal damage to an enemy, there is a 25% chance to restore a small amount of Hit Points.
 ### Q: Chain Lightning
+Deals lightning damage to the target and surrounding creatures.
 ### W: Feral Spirit
 Summons a wolf companion.
 ### E: Windfury
@@ -156,7 +158,7 @@ Creatures who miss their Attack Rolls against you must make a Dexterity Saving T
 ### Q: El'Druin's Might
 Summons an illusion of an angel wielding El'Druin.
 ### W: Righteousness
-Increases the maximum health of allies.
+Increases the maximum Hit Points of allies.
 ### E: Smite
 Swing your weapon, dealing radiant damage.
 
@@ -168,6 +170,7 @@ Swing your weapon, dealing radiant damage.
 ### Passive: Permanent Cloak
 When you heal another creature, it gains resistance against Bludgeoning, Piercing, and Slashing damage dealt by weapon attacks.
 ### Q: Cleave
+Swing your weapon, damaging all enemies around you.
 ### W: Singularity Spike
 Flings a Singularity Spike that sticks to the first enemy hit.
 ### E: Blink
