@@ -153,7 +153,7 @@ It strikes the enemy with a hammer, potentially stunning them.
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Tyrael_Smite.png?raw=true)
 ### Passive: Archangel's Wrath
 Creatures who miss their Attack Rolls against you must make a Dexterity Saving Throw or take Radiant Damage.
-### Q: El'druin's Might
+### Q: El'Druin's Might
 Summons an illusion of an angel wielding El'Druin.
 ### W: Righteousness
 Increases the maximum health of allies.
