@@ -84,4 +84,10 @@
   <content contentuid="h8ddb7810ga561gf237g9d1cge4fd543f15d3" version="1">Windfury</content>
   <content contentuid="hb9ee3899g28efg490cg9a0fg13901f014237" version="1">Gain a disengange and movement speed boost. You can use a Windfury Strike, hitting with your weapon three times.</content>
   <content contentuid="hb97b7280gb8a3g0e9ag5431gaee6fa3117d1" version="1">Windfury Strike</content>
+  <content contentuid="h3e98ba5cg5927g4ba3g4e81g04b3e53b6bb5" version="1">Nova: Dominion Ghost</content>
+  <content contentuid="hb8bf34eagf38bg74aagecb5g64896fe79172" version="1">While you are in an area that is Lightly or Heavily Obscured, you gain the Invisible condition against any creature.</content>
+  <content contentuid="hf4ef9070gfc38g5f1cg0305g899ce7366428" version="1">Unlock &lt;LSTag Type="Spell" Tooltip="Projectile_Nova_Snipe"&gt;Snipe&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Nova_PinningShot"&gt;Pinning Shot&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Nova_HoloDecoy"&gt;Holo Decoy&lt;/LSTag&gt;.</content>
+  <content contentuid="h2fc20111g33b6g6e50g91eag2fd356ce1dca" version="1">Snipe</content>
+  <content contentuid="hf51a9797g1bfeg0840gf48cg57436cba3120" version="1">Pinning Shot</content>
+  <content contentuid="h88ed4b61gc999g7fa8g4fabgf5800e9b1dab" version="1">Holo Decoy</content>
 </contentList>

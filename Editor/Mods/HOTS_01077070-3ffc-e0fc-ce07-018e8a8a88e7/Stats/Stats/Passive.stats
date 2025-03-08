@@ -132,5 +132,20 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(RollDieAgainstDC(DiceType.d4,4)):RegainHitPoints(SELF,1d4)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec91cc0e-50e2-4cbc-b48a-d4df6729d252" />
+        <field name="Name" type="NameTableFieldDefinition" value="Nova_PermanentCloak" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e98ba5cg5927g4ba3g4e81g04b3e53b6bb5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb8bf34eagf38bg74aagecb5g64896fe79172" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf4ef9070gfc38g5f1cg0305g899ce7366428" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Nova_PermanentCloak" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Nova_Snipe);UnlockSpell(Target_Nova_PinningShot);UnlockSpell(Shout_Nova_HoloDecoy);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnObscurityChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasObscuredState(ObscuredState.HeavilyObscured) and not HasStatus('SEE_INVISIBILITY_REVEAL') and not HasStatus('FAERIE_FIRE') and not HasStatus('BRANDING_SMITE')" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnObscurityChanged)):ApplyStatus(INVISIBILITY,100,1)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -78,6 +78,19 @@ Heal yourself and all nearby allies and increase their movement speed.
 ### E: Deadly Reach
 It delivers a fierce four-hit combo to deal damage.
 
+## Nova: Dominion Ghost
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Nova_PermanentCloak.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Nova_Snipe.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Nova_PinningShot.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Nova_HoloDecoy.png?raw=true)
+### Passive: Permanent Cloak
+When you heal another creature, it gains resistance against Bludgeoning, Piercing, and Slashing damage dealt by weapon attacks.
+### Q: Snipe
+### W: Pinning Shot
+Makes the target vulnerable to piercing damage.
+### E: Holo Decoy
+Creates three mirror images.
+
 ## Raynor: Renegade Commander
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Raynor_GiveEmSomePepper.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Raynor_PenetratingRound.png?raw=true)

@@ -176,5 +176,19 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(THRALL_WINDFURY,100,1);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10b35c04-5ca8-4036-b65f-c47c626d1b2a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Nova_HoloDecoy" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5afcef7-92e8-4eb0-ac98-13033805b3dd" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Nova_HoloDecoy" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h88ed4b61gc999g7fa8g4fabgf5800e9b1dab" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Invisible" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

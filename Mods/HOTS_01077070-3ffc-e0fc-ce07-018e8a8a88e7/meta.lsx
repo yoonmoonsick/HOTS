@@ -88,7 +88,7 @@
                     <attribute id="FileSize" type="uint64" value="674971"/>
                     <attribute id="Folder" type="LSString" value="HOTS_01077070-3ffc-e0fc-ce07-018e8a8a88e7"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="c6fdbaad63d4ba61d39cbb13034c4d0a"/>
+                    <attribute id="MD5" type="LSString" value="f00a4a53d56b9eb9ec6ba1eab1a4e668"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="Feat: Heroes of the Storm"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -96,7 +96,7 @@
                     <attribute id="PublishHandle" type="uint64" value="4761368"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="01077070-3ffc-e0fc-ce07-018e8a8a88e7"/>
-                    <attribute id="Version64" type="int64" value="36028797018963980"/>
+                    <attribute id="Version64" type="int64" value="36028797018963981"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718297457"/>
