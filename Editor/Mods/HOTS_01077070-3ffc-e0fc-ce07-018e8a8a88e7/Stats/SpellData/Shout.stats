@@ -190,5 +190,24 @@
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f5b6058-9ea9-45f1-80be-3352eb2d942e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Tyrael_Righteousness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f9c4a0e-33cc-4460-8ef7-246bf199b951" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(TYRAEL_RIGHTEOUSNESS,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Tyrael_Righteousness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha1c4fb74gf672g0613gc8b6ge8bb29632b68" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(D10Cantrip))" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(D10Cantrip))" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TYRAEL_RIGHTEOUSNESS,100,-1)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(D10Cantrip))" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

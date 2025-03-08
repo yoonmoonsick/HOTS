@@ -158,5 +158,18 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Kaelthas_Flamestrike);UnlockSpell(Target_Kaelthas_LivingBomb);UnlockSpell(Target_Kaelthas_GravityLapse);IF(MainDamageTypeIs(DamageType.Fire)):MinimumRollResult(Damage,2);IgnoreResistance(Fire,Resistant)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd2df172-0271-4290-93bf-87f7db58a217" />
+        <field name="Name" type="NameTableFieldDefinition" value="Tyrael_ArchangelWrath" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da08db31-c57f-422d-a260-0b4727440c6f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2fcf62adg2bd7g84c9gb975ga22be0e65ef5" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf3464557ge506gc618g1e18ga84c09ecd287" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Tyrael_ArchangelWrath" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Tyrael_EldruinMight);UnlockSpell(Shout_Tyrael_Righteousness);UnlockSpell(Target_Tyrael_Smite);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SWAP, TYRAEL_ARCHANGELWRATH, 100, 0)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

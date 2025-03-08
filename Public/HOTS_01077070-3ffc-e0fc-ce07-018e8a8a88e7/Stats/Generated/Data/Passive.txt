@@ -122,3 +122,13 @@ data "ExtraDescription" "h821f550bg89e9g99f7g2b35gd6bc355eb852;2"
 data "Icon" "Kaelthas_VerdantSpheres"
 data "Boosts" "UnlockSpell(Target_Kaelthas_Flamestrike);UnlockSpell(Target_Kaelthas_LivingBomb);UnlockSpell(Target_Kaelthas_GravityLapse);IF(MainDamageTypeIs(DamageType.Fire)):MinimumRollResult(Damage,2);IgnoreResistance(Fire,Resistant)"
 
+new entry "Tyrael_ArchangelWrath"
+type "PassiveData"
+using "MAG_Radiant_Radiating_Helmet_Passive"
+data "DisplayName" "h2fcf62adg2bd7g84c9gb975ga22be0e65ef5;1"
+data "ExtraDescription" "hf3464557ge506gc618g1e18ga84c09ecd287;1"
+data "Icon" "Tyrael_ArchangelWrath"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_Tyrael_EldruinMight);UnlockSpell(Shout_Tyrael_Righteousness);UnlockSpell(Target_Tyrael_Smite);"
+data "StatsFunctors" "ApplyStatus(SWAP, TYRAEL_ARCHANGELWRATH, 100, 0)"
+

@@ -257,5 +257,43 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9024069-d185-48d7-96d5-2b08e32bd767" />
+        <field name="Name" type="NameTableFieldDefinition" value="Tyrael_EldruinMight" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd350a2d-27ed-448c-a18e-30948f852708" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not CharacterLevelGreaterThan(5)):Summon(fcba28be-a189-47be-81b7-d9a26de92cb3, 10,Projectile_AiHelper_Summon_Strong,,'GuardianOfFaithStack',GUARDIAN_OF_FAITH_AURA,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(5) and not CharacterLevelGreaterThan(10)):Summon(8b5c812a-4aff-4759-934e-617b459ba6b7, 10,Projectile_AiHelper_Summon_Strong,,'GuardianOfFaithStack',GUARDIAN_OF_FAITH_AURA,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(CharacterLevelGreaterThan(10)):Summon(4b241a5e-5b8a-448d-9c15-10000306b8c0, 10,Projectile_AiHelper_Summon_Strong,,'GuardianOfFaithStack',GUARDIAN_OF_FAITH_AURA,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Tyrael_EldruinMight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc89b1a9fga0a3g5963gcbd1gff7fbba4a450" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c16875b4-291d-4671-8e43-8be48ada7161" />
+        <field name="Name" type="NameTableFieldDefinition" value="Tyrael_Smite" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d355be4-587d-41d9-a288-4fbd1211ff6e" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:DealDamage(LevelMapValue(D10Cantrip),Radiant)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType); ExecuteWeaponFunctors(MainHand);:DealDamage(LevelMapValue(D10Cantrip),Radiant,Magical)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Tyrael_Smite" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h51c95ee6g077fg9c24gde8fg20fe362f7bf8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(D10Cantrip),Radiant)" />
+        <field name="TooltipOnMiss" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DualWieldingUseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="HitCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;NoCooldownOnMiss" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

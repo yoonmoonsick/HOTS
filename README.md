@@ -146,6 +146,20 @@ Release a wave of light to heal allies and damage enemies.
 ### E: Hammer of Justice
 It strikes the enemy with a hammer, potentially stunning them.
 
+## Tyrael: Archangel of Justice
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Tyrael_ArchangelWrath.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Tyrael_EldruinMight.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Tyrael_Righteousness.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Tyrael_Smite.png?raw=true)
+### Passive: Archangel's Wrath
+Creatures who miss their Attack Rolls against you must make a Dexterity Saving Throw or take Radiant Damage.
+### Q: El'druin's Might
+Summons an illusion of an angel wielding El'Druin.
+### W: Righteousness
+Increases the maximum health of allies.
+### E: Smite
+Swing your weapon, dealing radiant damage.
+
 ## Zeratul: Dark Prelate
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Zeratul_PermanentCloak.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Zeratul_Cleave.png?raw=true)

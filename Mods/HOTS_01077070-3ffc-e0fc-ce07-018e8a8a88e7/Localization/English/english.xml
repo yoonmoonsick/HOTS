@@ -96,4 +96,11 @@
   <content contentuid="h197e24b7g8cf1g9503g7ff7gf7d25429061c" version="1">Living Bomb</content>
   <content contentuid="h6990208bgf819g24a0g43ccg23a925254e79" version="1">Gravity Lapse</content>
   <content contentuid="h021dddb8g4dbbg8b31gf78cgc99aa7a0c80e" version="1">Make a creature to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on its turn.</content>
+  <content contentuid="h2fcf62adg2bd7g84c9gb975ga22be0e65ef5" version="1">Tyrale: Archangel of Justice</content>
+  <content contentuid="hf3464557ge506gc618g1e18ga84c09ecd287" version="1">Unlock &lt;LSTag Type="Spell" Tooltip="Target_Tyrael_EldruinMight"&gt;El'Druin's Might&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Tyrael_Righteousness"&gt;Righteousness&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Tyrael_Smite"&gt;Smite&lt;/LSTag&gt;.</content>
+  <content contentuid="h442145c5g0744gaf68gca9eg33a704f9ee2c" version="1">Archangel's Wrath</content>
+  <content contentuid="hc89b1a9fga0a3g5963gcbd1gff7fbba4a450" version="1">El'Druin's Might</content>
+  <content contentuid="h8c8fc8e3g1c9dg6d26g1a53g3d247fdc16bb" version="1">El'Druin</content>
+  <content contentuid="ha1c4fb74gf672g0613gc8b6ge8bb29632b68" version="1">Righteousness</content>
+  <content contentuid="h51c95ee6g077fg9c24gde8fg20fe362f7bf8" version="1">Smite</content>
 </contentList>

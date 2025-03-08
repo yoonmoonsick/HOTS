@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a8098c1a-f86e-11da-bd1a-00112444be1e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="342df1f6-bccb-4b2d-8090-ee297a92ad4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eldruin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e97b5078-e1ff-4975-abcd-b4c1d1569887" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5175c4cf-ec82-40bd-afe3-2738a2caf776" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eldruin_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="342df1f6-bccb-4b2d-8090-ee297a92ad4c" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e093571-2c5a-40ca-8486-26c669173dd6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eldruin_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="342df1f6-bccb-4b2d-8090-ee297a92ad4c" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="48" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,15 @@
+new entry "Eldruin"
+type "Character"
+using "GuardianOfFaith"
+data "Vitality" "24"
+
+new entry "Eldruin_5"
+type "Character"
+using "Eldruin"
+data "Vitality" "36"
+
+new entry "Eldruin_10"
+type "Character"
+using "Eldruin"
+data "Vitality" "48"
+

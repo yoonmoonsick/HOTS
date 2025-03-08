@@ -142,5 +142,27 @@
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Psychic" enumeration_type_name="HitAnimationType" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="068ab337-cd3b-4182-9195-d5d29f06515c" />
+        <field name="Name" type="NameTableFieldDefinition" value="TYRAEL_ARCHANGELWRATH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="284b6378-f083-4004-868f-7c9ab4a3aff3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h442145c5g0744gaf68gca9eg33a704f9ee2c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Tyrael_ArchangelWrath" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip), Radiant,Magical);ApplyStatus(MAG_RADIANT_RADIANT_BLAST_TECHNICAL, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e726886d-4d62-4189-82d8-6483a58d0c0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="TYRAEL_RIGHTEOUSNESS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="626e04ef-f75a-49cb-908e-37f9bef735b4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha1c4fb74gf672g0613gc8b6ge8bb29632b68" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(D10Cantrip));" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Tyrael_Righteousness" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IncreaseMaxHP(LevelMapValue(D10Cantrip))" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
