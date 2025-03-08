@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="FeatDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h1b3f77fbg0b7eg9174g3a0fgd7320ba3b88f" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h1b3f77fbg0b7eg9174g3a0fgd7320ba3b88f" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h23baea55gb945g5918g0aebg55d89e3c5f39" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="YMS_HOTS"/>
                     <attribute id="FeatId" type="guid" value="030822aa-716d-4276-9902-5ecb9d548e4e"/>

@@ -147,5 +147,16 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnObscurityChanged)):ApplyStatus(INVISIBILITY,100,1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a806e18e-907f-4387-88b6-bf0136481d4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kaelthas_VerdantSpheres" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3ea7f518-66e2-4b8f-8e23-6a34997ac0b8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc38524bag2116g4f3dgfcc1g6933b2cd531f" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h821f550bg89e9g99f7g2b35gd6bc355eb852" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Kaelthas_VerdantSpheres" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Kaelthas_Flamestrike);UnlockSpell(Target_Kaelthas_LivingBomb);UnlockSpell(Target_Kaelthas_GravityLapse);IF(MainDamageTypeIs(DamageType.Fire)):MinimumRollResult(Damage,2);IgnoreResistance(Fire,Resistant)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

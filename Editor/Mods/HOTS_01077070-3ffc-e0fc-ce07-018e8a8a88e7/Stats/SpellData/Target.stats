@@ -174,5 +174,88 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38c81bd4-2233-448e-aa31-6ee8c3f9f235" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kaelthas_Flamestrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff736f9d-3563-4d2f-a343-16a3cf33230c" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D12Cantrip),Fire);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D12Cantrip)/2,Fire);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Kaelthas_Flamestrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcdfe4595g3d4dg84b0gc210g76dd457d5b83" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D12Cantrip),Fire);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;6123de84-27e4-4e81-9e1f-8031cc0ebc0d,,;cb171bda-f065-4520-b470-e447f678ba1f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="504f1c24-74a4-44b5-98b4-7028a165a783" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="fa8655db-890f-4c1f-b3fc-739a807c390c" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="571ef821-b843-4fde-88c6-d281e433d1ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kaelthas_LivingBomb" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df846491-89d5-4975-a21f-bf84bc398f25" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetCeiling" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Fire);ApplyStatus(KAELTHAS_LIVINGBOMB, 100, 10)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(KAELTHAS_LIVINGBOMB, 100, 10)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Kaelthas_LivingBomb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h197e24b7g8cf1g9503g7ff7gf7d25429061c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Fire);DealDamage(LevelMapValue(D6Cantrip),Fire)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Fire);DealDamage(LevelMapValue(D6Cantrip),Fire)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(KAELTHAS_LIVINGBOMB, 100, 10)" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_HellishRebukeTrigger_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="AlternativeCastTextEvents" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="DualWieldingUseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="HitCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" clear_inherited_value="true" value=",,;,,;;,,;,,;,,;,,;,,;,," />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="488a0639-98c3-4c5f-83d2-3fe055f8e310" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="f97febdd-7f77-4ca0-9a05-13e8bd5772e0" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f9c44180-2207-40de-b8f6-e454032e97be" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kaelthas_GravityLapse" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebe799b9-7e76-4acf-abd7-3d2828a65a42" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(EldritchBlast)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Kaelthas_GravityLapse" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6990208bgf819g24a0g43ccg23a925254e79" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h021dddb8g4dbbg8b31gf78cgc99aa7a0c80e" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

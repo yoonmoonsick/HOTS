@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cc445e54-9a93-405e-85fd-988397f17d85" />
         <field name="Name" type="NameTableFieldDefinition" value="Heroes of the Storm" />
-        <field name="Passives" type="StringTableFieldDefinition" value="Arthas_FrostmourneHungers,Diablo_BlackSoulstone,Illidan_BetrayersThirst,Kerrigan_Assimilation,Kharazim_IronFists,Raynor_GiveEmSomePepper,Thrall_FrostwolfResilience,Uther_EternalDevotion,Zeratul_PermanentCloak" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Arthas_FrostmourneHungers,Diablo_BlackSoulstone,Illidan_BetrayersThirst,Kaelthas_VerdantSpheres,Kerrigan_Assimilation,Kharazim_IronFists,Nova_PermanentCloak,Raynor_GiveEmSomePepper,Thrall_FrostwolfResilience,Uther_EternalDevotion,Zeratul_PermanentCloak" />
       </fields>
     </stat_object>
   </stat_objects>

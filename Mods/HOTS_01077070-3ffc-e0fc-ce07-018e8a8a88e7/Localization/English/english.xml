@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <content contentuid="h23baea55gb945g5918g0aebg55d89e3c5f39" version="1">Heroes of the Storm</content>
-  <content contentuid="h1b3f77fbg0b7eg9174g3a0fgd7320ba3b88f" version="1">Long ago, the boundaries between worlds began to blur. In the Forgotten Realms, an ancient power stirred—a mysterious force known as the Nexus. From this convergence of dimensions emerged legendary Heroes drawn from distant lands.&lt;br&gt;&lt;br&gt;These exalted Heroes, each bearing a unique legacy and formidable abilities, come in many forms—warriors, mages, healers, and assassins.</content>
+  <content contentuid="h1b3f77fbg0b7eg9174g3a0fgd7320ba3b88f" version="2">Long ago, the boundaries between worlds began to blur. In the Forgotten Realms, an ancient power stirred—a mysterious force known as the Nexus. From this convergence of dimensions emerged legendary Heroes drawn from distant lands.</content>
   <content contentuid="h53d8394fgf7abg1e6bgdcc4g81c4688eceb4" version="2">Raynor: Renegade Commander</content>
   <content contentuid="h6769af3egf0fbg2f8egea47gd3e7407bd944" version="5">Weapon Attacks now have a 25% chance to trigger a splash effect in a small area, dealing 1d10 Piercing damage to the primary target.</content>
   <content contentuid="ha56ec556g8ff9gd069gd80dg59d97f8d99d3" version="1">Penetrating Round</content>
@@ -90,4 +90,10 @@
   <content contentuid="h2fc20111g33b6g6e50g91eag2fd356ce1dca" version="1">Snipe</content>
   <content contentuid="hf51a9797g1bfeg0840gf48cg57436cba3120" version="1">Pinning Shot</content>
   <content contentuid="h88ed4b61gc999g7fa8g4fabgf5800e9b1dab" version="1">Holo Decoy</content>
+  <content contentuid="hc38524bag2116g4f3dgfcc1g6933b2cd531f" version="1">Kael'thas: The Sun King</content>
+  <content contentuid="h821f550bg89e9g99f7g2b35gd6bc355eb852" version="2">Unlock &lt;LSTag Type="Spell" Tooltip="Target_Kaelthas_Flamestrike"&gt;Flamestrike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Kaelthas_LivingBomb"&gt;Living Bomb&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Gravity Lapse"&gt;Gravity Lapse&lt;/LSTag&gt;.</content>
+  <content contentuid="hcdfe4595g3d4dg84b0gc210g76dd457d5b83" version="1">Flamestrike</content>
+  <content contentuid="h197e24b7g8cf1g9503g7ff7gf7d25429061c" version="1">Living Bomb</content>
+  <content contentuid="h6990208bgf819g24a0g43ccg23a925254e79" version="1">Gravity Lapse</content>
+  <content contentuid="h021dddb8g4dbbg8b31gf78cgc99aa7a0c80e" version="1">Make a creature to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on its turn.</content>
 </contentList>

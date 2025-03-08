@@ -50,6 +50,20 @@ Charge forward and attack all enemies in your way.
 ### E: Evasion
 Attackers have disadvantage on attack roll against you.
 
+## Kael'thas: The Sun King
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kaelthas_VerdantSpheres.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kaelthas_Flamestrike.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kaelthas_LivingBomb.png?raw=true)
+![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kaelthas_GravityLapse.png?raw=true)
+### Passive: Betrayers Thirst
+Spells you cast and attacks you make ignore Resistance to Fire damage. In addition, when you deal Fire damage with a spell, you cannot roll a 1. 
+### Q: Flamestrike
+
+### W: Living Bomb
+Deals continuous fire damage to the target.
+### E: Gravity Lapse
+Make a creature to fall Prone on its turn.
+
 ## Kerrigan: Queen of Blades
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kerrigan_Assimilation.png?raw=true)
 ![](https://github.com/yoonmoonsick/HOTS/blob/main/Icons/Kerrigan_Ravage.png?raw=true)

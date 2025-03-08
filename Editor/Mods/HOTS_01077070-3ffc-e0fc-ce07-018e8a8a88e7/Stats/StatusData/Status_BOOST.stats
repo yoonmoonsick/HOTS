@@ -127,5 +127,20 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c820338-7fe6-4b8c-bba2-840bfb7b733a" />
+        <field name="Name" type="NameTableFieldDefinition" value="KAELTHAS_LIVINGBOMB" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a43f05fe-467d-48c2-a02a-eedb880ee79e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h197e24b7g8cf1g9503g7ff7gf7d25429061c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Kaelthas_LivingBomb" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KAELTHAS_LIVINGBOMB" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Fire)" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Psychic" enumeration_type_name="HitAnimationType" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

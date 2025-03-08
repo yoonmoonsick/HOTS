@@ -108,3 +108,16 @@ data "Boosts" "IgnoreLeaveAttackRange();ActionResourceMultiplier(Movement,150,0)
 data "RemoveConditions" ""
 data "RemoveEvents" ""
 
+new entry "KAELTHAS_LIVINGBOMB"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SEARING_SMITE"
+data "DisplayName" "h197e24b7g8cf1g9503g7ff7gf7d25429061c;1"
+data "DescriptionParams" "DealDamage(LevelMapValue(D6Cantrip),Fire)"
+data "Icon" "Kaelthas_LivingBomb"
+data "FormatColor" "Fire"
+data "HitAnimationType" "MagicalDamage_Psychic"
+data "StackId" "KAELTHAS_LIVINGBOMB"
+data "TooltipDamage" "DealDamage(LevelMapValue(D6Cantrip),Fire)"
+data "TickFunctors" "DealDamage(LevelMapValue(D6Cantrip),Fire)"
+

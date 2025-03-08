@@ -7,7 +7,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="76c76355-ff52-4c58-b2ba-5c9257d7ac63" />
         <field name="FeatId" type="GuidTableFieldDefinition" value="030822aa-716d-4276-9902-5ecb9d548e4e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h23baea55gb945g5918g0aebg55d89e3c5f39" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1b3f77fbg0b7eg9174g3a0fgd7320ba3b88f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1b3f77fbg0b7eg9174g3a0fgd7320ba3b88f" version="2" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="YMS_HOTS" />
       </fields>
     </stat_object>

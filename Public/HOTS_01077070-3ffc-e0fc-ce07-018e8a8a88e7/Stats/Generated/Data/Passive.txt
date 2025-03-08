@@ -114,3 +114,11 @@ data "StatsFunctorContext" "OnObscurityChanged"
 data "Conditions" "HasObscuredState(ObscuredState.HeavilyObscured) and not HasStatus('SEE_INVISIBILITY_REVEAL') and not HasStatus('FAERIE_FIRE') and not HasStatus('BRANDING_SMITE')"
 data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnObscurityChanged)):ApplyStatus(INVISIBILITY,100,1)"
 
+new entry "Kaelthas_VerdantSpheres"
+type "PassiveData"
+using "ElementalAdept_Fire"
+data "DisplayName" "hc38524bag2116g4f3dgfcc1g6933b2cd531f;1"
+data "ExtraDescription" "h821f550bg89e9g99f7g2b35gd6bc355eb852;2"
+data "Icon" "Kaelthas_VerdantSpheres"
+data "Boosts" "UnlockSpell(Target_Kaelthas_Flamestrike);UnlockSpell(Target_Kaelthas_LivingBomb);UnlockSpell(Target_Kaelthas_GravityLapse);IF(MainDamageTypeIs(DamageType.Fire)):MinimumRollResult(Damage,2);IgnoreResistance(Fire,Resistant)"
+
