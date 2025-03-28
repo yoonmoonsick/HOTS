@@ -11,7 +11,7 @@
 <content contentuid="haa8b17b9g792cg550eg1b91g4ca3de41554e" version="1">아드레날린 돌진</content>
 <content contentuid="hfb932e65g84adge82fgd3dfg63a61ca88608" version="1">1d10 + 레벨 + 체력 보정치만큼 생명력을 회복합니다.</content>
 <content contentuid="h499ffaeag2a79g17e4gc05fg7f6a691ab6bf" version="1">디아블로: 공포의 군주</content>
-<content contentuid="ha9bf389fga98ag7c00gfa99gb53ee398b550" version="2">다음에 피해로 인해 영향을 받은 대상의 &lt;LSTag Tooltip="HitPoints"&gt;생명력&lt;/LSTag&gt;이 0이 될 경우, 레벨 + 건강 보정치만큼의 생명력을 남긴 채 의식을 유지합니다.</content>
+<content contentuid="ha9bf389fga98ag7c00gfa99gb53ee398b550" version="2">다음에 피해로 인해 영향을 받은 대상의 생명력이 0이 될 경우, 레벨 + 건강 보정치만큼의 생명력을 남긴 채 의식을 유지합니다.</content>
 <content contentuid="h576b6027ga38dgb9ccgcc51gc5dca10b014e" version="1">그림자 돌진</content>
 <content contentuid="hb78d141ege1e4gc7e8g7787g8428765cbd6c" version="3">앞으로 돌진하여 길을 막는 첫 번째 적을 공격합니다. 대상은 기절할 수 있습니다.</content>
 <content contentuid="hb200dfb1g52afg55e0g1d68g596dadc1e007" version="1">불꽃 손</content>
@@ -30,20 +30,20 @@
 <content contentuid="h797201c2geb11g4314g2fbbg7aa3076c85ae" version="1">캐리건: 칼날 여왕</content>
 <content contentuid="hd11a8ff9gda46g1e83g5914gdbd3d313bb66" version="3">적대적인 크리처를 처치하면 임시 생명력을 얻습니다.</content>
 <content contentuid="h5858ab95g4cbbg2b3eg58b4g53b1fc6935e3" version="1">동화</content>
-<content contentuid="ha8427cdagbc66gf4f4gbe66gae3f4c37e8df" version="1">건강 &lt;LSTag Tooltip="AbilityModifier"&gt;보정치&lt;/LSTag&gt;와 레벨을 합한 만큼의 &lt;LSTag Tooltip="TemporaryHitPoints"&gt;임시 생명력&lt;/LSTag&gt;을 얻습니다.</content>
-<content contentuid="h82ee28acgfbafg9d63g0475g9203bb3d5c2a" version="1">&lt;LSTag Type="Spell" Tooltip="Zone_Raynor_PenetratingRound"&gt;관통 사격&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Raynor_Inspire"&gt;고무&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Raynor_AdrenalineRush"&gt;아드레날린 돌진&lt;/LSTag&gt;을 해제합니다.</content>
-<content contentuid="he0d201efg0b4ag2aadg1c18gd49566a6cfdd" version="1">&lt;LSTag Type="Spell" Tooltip="Rush_Diablo_ShadowCharge"&gt;그림자 돌진&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Diablo_FireStomp"&gt;불꽃 손&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_Diablo_Overpower"&gt;압도&lt;/LSTag&gt;을 해제합니다.</content>
-<content contentuid="ha914af09g2167gb0e7gc53bg7ec2ba773eb5" version="1">&lt;LSTag Type="Spell" Tooltip="Target_Uther_HolyLight"&gt;신성한 빛&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Uther_HolyRadiance"&gt;신성한 광휘&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Uther_HammerOfJustice"&gt;정의의 망치&lt;/LSTag&gt;을 해제합니다.</content>
-<content contentuid="hbaae2fb0gbc7bg852cg7dffg0ef84d295301" version="2">&lt;LSTag Type="Spell" Tooltip="Projectile_Kerrigan_Ravage"&gt;강습&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Kerrigan_ImpalingBlades"&gt;꿰뚫는 칼날&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Kerrigan_PrimalGrasp"&gt;원시의 손아귀&lt;/LSTag&gt;을 해제합니다.</content>
+<content contentuid="ha8427cdagbc66gf4f4gbe66gae3f4c37e8df" version="1">건강 보정치와 레벨을 합한 만큼의 임시 생명력을 얻습니다.</content>
+<content contentuid="h82ee28acgfbafg9d63g0475g9203bb3d5c2a" version="1">관통 사격, 고무, 아드레날린 돌진을 해제합니다.</content>
+<content contentuid="he0d201efg0b4ag2aadg1c18gd49566a6cfdd" version="1">그림자 돌진, 불꽃 손, 압도을 해제합니다.</content>
+<content contentuid="ha914af09g2167gb0e7gc53bg7ec2ba773eb5" version="1">신성한 빛, 신성한 광휘, 정의의 망치을 해제합니다.</content>
+<content contentuid="hbaae2fb0gbc7bg852cg7dffg0ef84d295301" version="2">강습, 꿰뚫는 칼날, 원시의 손아귀을 해제합니다.</content>
 <content contentuid="h4906a6bag5822g58ccgf40fge8d65435edee" version="1">꿰뚫는 칼날</content>
 <content contentuid="hff8e6ff0g7b1ag5aecga7f2gd54b2b0f65d0" version="1">땅에서 자라는 가시를 소환하여 피해를 줍니다. 대상은 기절할 수 있습니다.</content>
 <content contentuid="hacd3cdb5g8937gb1beg1296geb4c0da8eba2" version="1">원시의 손아귀</content>
 <content contentuid="h110cde67gd4e1g6d9cg66begf756b01b3285" version="1">적에게 피해를 주고 적을 끌어당깁니다.</content>
 <content contentuid="ha21162e7gca51gb1a2g903fg6d9a8da39a1b" version="1">강습</content>
-<content contentuid="h8a694b4dg960eg1f4bgcd46g078848e66b15" version="1">적에게 뛰어내려 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어뜨립니다&lt;/LSTag&gt;.</content>
+<content contentuid="h8a694b4dg960eg1f4bgcd46g078848e66b15" version="1">적에게 뛰어내려 넘어뜨립니다.</content>
 <content contentuid="h8ba1c473g0cfagf478g4046g5f20983e77d1" version="1">아서스: 리치 왕</content>
 <content contentuid="hc47ab65ag6141g803fgb88cg73337a8ebd10" version="2">근접 무기 공격이 추가로 1d4 냉기 피해를 줍니다. 냉기 피해에 저항을 가집니다.</content>
-<content contentuid="ha2f3dfa8g9f0egedb3g344eg8723c6277f88" version="1">&lt;LSTag Type="Spell" Tooltip="Projectile_Arthas_DeathCoil"&gt;죽음의 고리&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_Arthas_HowlingBlast"&gt;울부짖는 폭발&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Arthas_FrozenTempest"&gt;얼어붙은 폭풍&lt;/LSTag&gt;을 해제합니다.</content>
+<content contentuid="ha2f3dfa8g9f0egedb3g344eg8723c6277f88" version="1">죽음의 고리, 울부짖는 폭발, 얼어붙은 폭풍을 해제합니다.</content>
 <content contentuid="hc1265595g79dcgaddeg7948g2c8bffb1539a" version="1">울부짖는 폭발</content>
 <content contentuid="h18a72f45g2dbdg9abeg6593g589957e7c0d1" version="1">냉기 피해를 주고 대상을 얼릴 수 있습니다.</content>
 <content contentuid="h3ca217c5ga218gfc9fgb478g6314372cd8f8" version="1">죽음의 고리</content>
@@ -52,7 +52,7 @@
 <content contentuid="h7a465004ga8f8gc0bbg25c0g49fd305fb0c2" version="1">얼어붙은 폭풍</content>
 <content contentuid="hb125c28dg1c62g29c2g493bg3aed5b9fd6d3" version="1">카라짐: 베라다니 수도사</content>
 <content contentuid="hd70a27a7g5f5eg2b90g43d6g3459fafafe1d" version="1">근접 맨손 공격이 25% 확률로 대상에게 1d10 타격 피해를 줍니다.</content>
-<content contentuid="h993ce535g2e8bge9c8g7c52g24b7d2882307" version="2">&lt;LSTag Type="Spell" Tooltip="Rush_Kharazim_RadiantDash"&gt;광휘의 돌진&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Kharazim_BreathOfHeaven"&gt;천상의 숨결&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Kharazim_DeadlyReach"&gt;연속 타격격&lt;/LSTag&gt;을 해제합니다.</content>
+<content contentuid="h993ce535g2e8bge9c8g7c52g24b7d2882307" version="2">광휘의 돌진, 천상의 숨결, 연속 타격격을 해제합니다.</content>
 <content contentuid="h41a09f8cg5d7dg624cge78eg5c02be789e66" version="1">연속 타격</content>
 <content contentuid="he60b9a1eg254cg542egd949ga0148c83324e" version="1">광휘의 돌진</content>
 <content contentuid="h1a808914ge6ffg88edg8479g174876bb970f" version="1">대상에게 빠르게 돌진합니다. 대상이 아군일 경우 치유하고, 적일 경우 피해를 줍니다.</content>
@@ -64,7 +64,7 @@
 <content contentuid="h86787ed3gab94gb1c3g038cgf18e73ca420a" version="1">손에서 불을 내뿜어 전방방에 피해를 줍니다.</content>
 <content contentuid="h5b602469gea84g3b11gc5deg2fcdea86f71b" version="1">일리단: 배신자</content>
 <content contentuid="h24740cf2g7310gd8c9g85aegb63a008de5c6" version="1">근접 무기 공격이 적중할 때마다 1d4 생명력을 회복합니다.</content>
-<content contentuid="hf0bb9878g4711g4c43g767cge68927aae288" version="1">&lt;LSTag Type="Spell" Tooltip="Projectile_Illidan_Dive"&gt;돌진&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Rush_Illidan_SweepingStrike"&gt;휩쓸기&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Illidan_Evasion"&gt;회피&lt;/LSTag&gt;을 해제합니다.</content>
+<content contentuid="hf0bb9878g4711g4c43g767cge68927aae288" version="1">돌진, 휩쓸기, 회피을 해제합니다.</content>
 <content contentuid="hb4a1539bgfbddg79beg4fbbgd180affb9ad3" version="1">돌진</content>
 <content contentuid="hadb66057gb8dag8af6gea1fgaec30602db49" version="1">적에게 뛰어내립니다.</content>
 <content contentuid="hf9962ee8g5041g44f6g99e1g45ade0935a37" version="1">휩쓸기</content>
@@ -72,13 +72,13 @@
 <content contentuid="h3f60ac3egedb9g1857g61a3gcaf09b8651eb" version="1">회피</content>
 <content contentuid="h7ecfcccag0618ga59cge997g5f8ba983d0f6" version="1">제라툴: 암흑 정무관</content>
 <content contentuid="ha45e3266g3bd2ga1cagbce4g60f889dc781c" version="1">약간 또는 완전히 가려진 지역에 있을 때, 모든 크리처에게 투명 상태를 얻습니다.</content>
-<content contentuid="h6d9fc128ga74eg653bgbbb3g62d90b6ecfbd" version="2">&lt;LSTag Type="Spell" Tooltip="Shout_Zeratul_Cleave"&gt;베기&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_Zeratul_SingularitySpike"&gt;특이점 가시&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Zeratul_Blink"&gt;점멸&lt;/LSTag&gt;을 해제합니다.</content>
+<content contentuid="h6d9fc128ga74eg653bgbbb3g62d90b6ecfbd" version="2">베기, 특이점 가시, 점멸을 해제합니다.</content>
 <content contentuid="h950052d1g72d5gaa9bg30f3gf6ceb87be2b3" version="1">베기</content>
 <content contentuid="h618a22acg2993gcaa9g44b6gf8a1b93edf22" version="1">특이점 폭발</content>
 <content contentuid="hf81e9447g7bf6g7263g8693gae3af25ba112" version="1">특이점 조각을 던져 첫 번째 적에게 붙습니다.</content>
 <content contentuid="h6038011cg9b7cg5755g6dfag7d28bd429822" version="1">스랄: 호드의 대족장</content>
 <content contentuid="hcb7cc95dg70bag8455g664bge935d00177c3" version="1">적에게 피해를 줄 때 25% 확률로 소량의 생명력을 회복합니다.</content>
-<content contentuid="h0656c73cgeeb1gfb33gbec6g1702f0af3d8a" version="4">&lt;LSTag Type="Spell" Tooltip="Projectile_Thrall_ChainLightning"&gt;연쇄 번개&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Thrall_FeralSpirit"&gt;야수의 영혼&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Thrall_Windfury"&gt;바람의 분노&lt;/LSTag&gt;을 해제합니다.</content>
+<content contentuid="h0656c73cgeeb1gfb33gbec6g1702f0af3d8a" version="4">연쇄 번개, 야수의 영혼, 바람의 분노을 해제합니다.</content>
 <content contentuid="h266850f1gf412ge341g87bageb28b73dfc27" version="1">연쇄 번개</content>
 <content contentuid="hc43ff536gcc33gdff9ga27fga4de105a02a5" version="1">야수의 영혼</content>
 <content contentuid="h8ddb7810ga561gf237g9d1cge4fd543f15d3" version="1">질풍풍</content>
@@ -86,18 +86,18 @@
 <content contentuid="hb97b7280gb8a3g0e9ag5431gaee6fa3117d1" version="1">질풍풍 공격</content>
 <content contentuid="h3e98ba5cg5927g4ba3g4e81g04b3e53b6bb5" version="1">노바: 자치령령 유령</content>
 <content contentuid="hb8bf34eagf38bg74aagecb5g64896fe79172" version="1">약간 또는 완전히 가려진 지역에 있을 때, 모든 크리처에게 투명 상태를 얻습니다.</content>
-<content contentuid="hf4ef9070gfc38g5f1cg0305g899ce7366428" version="1">&lt;LSTag Type="Spell" Tooltip="Projectile_Nova_Snipe"&gt;저격&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Nova_PinningShot"&gt;고정 사격&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Nova_HoloDecoy"&gt;홀로그램 분신&lt;/LSTag&gt;을 해제합니다.</content>
+<content contentuid="hf4ef9070gfc38g5f1cg0305g899ce7366428" version="1">저격, 고정 사격, 홀로그램 분신을 해제합니다.</content>
 <content contentuid="h2fc20111g33b6g6e50g91eag2fd356ce1dca" version="1">저격</content>
 <content contentuid="hf51a9797g1bfeg0840gf48cg57436cba3120" version="1">고정 사격</content>
 <content contentuid="h88ed4b61gc999g7fa8g4fabgf5800e9b1dab" version="1">홀로그램 분신</content>
 <content contentuid="hc38524bag2116g4f3dgfcc1g6933b2cd531f" version="1">캘타스: 태양왕</content>
-<content contentuid="h821f550bg89e9g99f7g2b35gd6bc355eb852" version="2">&lt;LSTag Type="Spell" Tooltip="Target_Kaelthas_Flamestrike"&gt;화염 강타&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Kaelthas_LivingBomb"&gt;생명의 폭탄&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Gravity Lapse"&gt;중력 쇄도&lt;/LSTag&gt;을 해제합니다.</content>
+<content contentuid="h821f550bg89e9g99f7g2b35gd6bc355eb852" version="2">화염 강타, 생명의 폭탄, 중력 쇄도을 해제합니다.</content>
 <content contentuid="hcdfe4595g3d4dg84b0gc210g76dd457d5b83" version="1">화염 강타</content>
 <content contentuid="h197e24b7g8cf1g9503g7ff7gf7d25429061c" version="1">생명의 폭탄</content>
 <content contentuid="h6990208bgf819g24a0g43ccg23a925254e79" version="1">중력 쇄도</content>
-<content contentuid="h021dddb8g4dbbg8b31gf78cgc99aa7a0c80e" version="1">크리처를 자신의 턴에 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어뜨립니다&lt;/LSTag&gt;.</content>
+<content contentuid="h021dddb8g4dbbg8b31gf78cgc99aa7a0c80e" version="1">크리처를 자신의 턴에 넘어뜨립니다.</content>
 <content contentuid="h2fcf62adg2bd7g84c9gb975ga22be0e65ef5" version="1">티리엘: 정의의 대천사</content>
-<content contentuid="hf3464557ge506gc618g1e18ga84c09ecd287" version="1">&lt;LSTag Type="Spell" Tooltip="Target_Tyrael_EldruinMight"&gt;엘드루인의 힘&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Tyrael_Righteousness"&gt;정의&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Tyrael_Smite"&gt;일격&lt;/LSTag&gt;을 해제합니다.</content>
+<content contentuid="hf3464557ge506gc618g1e18ga84c09ecd287" version="1">엘드루인의 힘, 정의, 일격을 해제합니다.</content>
 <content contentuid="h442145c5g0744gaf68gca9eg33a704f9ee2c" version="1">대천사의 분노</content>
 <content contentuid="hc89b1a9fga0a3g5963gcbd1gff7fbba4a450" version="1">엘드루인의 힘</content>
 <content contentuid="h8c8fc8e3g1c9dg6d26g1a53g3d247fdc16bb" version="1">엘드루인</content>
