@@ -2,7 +2,7 @@
 <contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <content contentuid="h23baea55gb945g5918g0aebg55d89e3c5f39" version="1">히어로즈 오브 더 스톰</content>
 <content contentuid="h1b3f77fbg0b7eg9174g3a0fgd7320ba3b88f" version="2">오래전에 세계 간의 경계가 흐려지기 시작했습니다. 포가튼 렐름에서 고대의 힘이 깨어났습니다. 시공이라는 신비한 힘이었죠. 이 차원들의 융합에서 먼 땅에서 온 전설적인 영웅들이 나타났습니다.</content>
-<content contentuid="h53d8394fgf7abg1e6bgdcc4g81c4688eceb4" version="2">레이너: 무법자 사령관</content>
+<content contentuid="h53d8394fgf7abg1e6bgdcc4g81c4688eceb4" version="2">레이너: 반란군 사령관</content>
 <content contentuid="h6769af3egf0fbg2f8egea47gd3e7407bd944" version="5">무기 공격 시 25% 확률로 작은 범위에 스플래시 효과가 발생하여 주요 대상에게 1d10 관통 피해를 줍니다.</content>
 <content contentuid="ha56ec556g8ff9gd069gd80dg59d97f8d99d3" version="1">관통 사격</content>
 <content contentuid="hf950bce2g81fcgc0f6gd6bfg86996a46baa4" version="1">관통형 발사체를 쏘아 대상에게 피해를 주고 밀쳐냅니다.</content>
@@ -81,9 +81,9 @@
 <content contentuid="h0656c73cgeeb1gfb33gbec6g1702f0af3d8a" version="4">연쇄 번개, 야수의 영혼, 바람의 분노을 해제합니다.</content>
 <content contentuid="h266850f1gf412ge341g87bageb28b73dfc27" version="1">연쇄 번개</content>
 <content contentuid="hc43ff536gcc33gdff9ga27fga4de105a02a5" version="1">야수의 영혼</content>
-<content contentuid="h8ddb7810ga561gf237g9d1cge4fd543f15d3" version="1">질풍풍</content>
-<content contentuid="hb9ee3899g28efg490cg9a0fg13901f014237" version="1">이탈을 얻고 이동 속도가 증가합니다. 질풍풍 공격을 사용하여 무기로 세 번 공격할 수 있습니다.</content>
-<content contentuid="hb97b7280gb8a3g0e9ag5431gaee6fa3117d1" version="1">질풍풍 공격</content>
+<content contentuid="h8ddb7810ga561gf237g9d1cge4fd543f15d3" version="1">질풍</content>
+<content contentuid="hb9ee3899g28efg490cg9a0fg13901f014237" version="1">이탈을 얻고 이동 속도가 증가합니다. 질풍 공격을 사용하여 무기로 세 번 공격할 수 있습니다.</content>
+<content contentuid="hb97b7280gb8a3g0e9ag5431gaee6fa3117d1" version="1">질풍 공격</content>
 <content contentuid="h3e98ba5cg5927g4ba3g4e81g04b3e53b6bb5" version="1">노바: 자치령령 유령</content>
 <content contentuid="hb8bf34eagf38bg74aagecb5g64896fe79172" version="1">약간 또는 완전히 가려진 지역에 있을 때, 모든 크리처에게 투명 상태를 얻습니다.</content>
 <content contentuid="hf4ef9070gfc38g5f1cg0305g899ce7366428" version="1">저격, 고정 사격, 홀로그램 분신을 해제합니다.</content>
@@ -103,4 +103,43 @@
 <content contentuid="h8c8fc8e3g1c9dg6d26g1a53g3d247fdc16bb" version="1">엘드루인</content>
 <content contentuid="ha1c4fb74gf672g0613gc8b6ge8bb29632b68" version="1">정의</content>
 <content contentuid="h51c95ee6g077fg9c24gde8fg20fe362f7bf8" version="1">강타</content>
+<content contentuid="hba29930bg987fg69fcg70d7g6c06b7a36eb5" version="1">정예 타우렌 족장: 록의 신</content>
+<content contentuid="hddc5f904ga61bg21eag2f98g3f391e28a213" version="3">방어도가 2 증가합니다. 정타족의 스킬을 사용할 때, 방어도가 3턴 동안 추가로 2 증가합니다. 또한, 악기 숙련을 얻습니다.</content>
+<content contentuid="h3927faa5g5028g1b3eg7c46gbdb493e342a7" version="1">파워 슬라이드, 고막 터트리기, 기타 솔로를 해금합니다.</content>
+<content contentuid="hd873fdefg54cdg6728g8de3gce09ef4cecf2" version="1">정예 타우렌 족장(E.T.C.), 록의 신은 워크래프트 세계관의 근접 탱커 영웅입니다. 강렬한 리듬과 폭발적인 기타 연주로 호드의 힘을 구현한 그는 아제로스를 헤드뱅잉하며 누비는 가장 정예 타우렌 족장입니다. 양말을 신을 필요도 없습니다. 어차피 그의 연주에 날아가 버릴 테니까요.</content>
+<content contentuid="h8184f2ebg992ag75f8g6db8g89002e32e8a8" version="1">짐 레이너, 반란군 사령관은 스타크래프트 세계관의 원거리 암살자 영웅입니다. 전직 연합군 보안관이었던 그는 온 우주가 던지는 위협을 견뎌내며 살아남았습니다. 그는 이해할 수 없는 외계 종족과 괴물들 사이에서도 여전히 정의를 위해 싸우는, 차가운 우주 속 한 줄기 희망의 빛입니다.</content>
+<content contentuid="he2ff508cg858fgd0cfg8e56ga859f0f51ea2" version="1">디아블로, 공포의 군주는 디아블로 세계관의 근접 탱커 영웅입니다. 고대 언어로 알'디아블로스라 불리며, 공포의 원초적인 악인 디아블로는 불타는 지옥을 위해 성역 세계를 정복하려 합니다. 그의 희생자는 셀 수 없이 많고, 그의 계략은 알 수 없으며, 그의 힘은… 헤아릴 수 없습니다.</content>
+<content contentuid="hba84e23dgac8eg55a7gfd81gde7558f897fd" version="1">우서 빛의 인도자는 워크래프트 세계관의 근접 치유사 영웅입니다. 최초의 팔라딘이자 실버 핸드 기사단의 창립자인 우서는 빛에 대한 충실한 신봉자입니다. 정의의 망치를 휘두르며 심판을 내리는 그는 진실의 수호자이자 얼라이언스의 흔들리지 않는 상징입니다.</content>
+<content contentuid="h062a98c4g3982gffecg0890gf3a087b96146" version="1">사라 케리건, 칼날 여왕은 스타크래프트 세계관의 근접 암살자 영웅입니다. 한때 강력한 사이오닉 능력을 지닌 테란 유령 요원이었던 그녀는 동료들의 배신으로 저그에 의해 칼날 여왕으로 변모했습니다. 이제 어둠의 존재의 부패에서 벗어난 케리건은 은하계를 위협하는 거대한 재앙과 맞서고 있습니다.</content>
+<content contentuid="h96431291g901egb9f9g1a31g37d5b72a3ac5" version="1">아서스 메네실, 리치 왕은 워크래프트 세계관의 근접 탱커 영웅입니다. 한때 로데론의 왕자이자 우서 빛의 인도자의 제자였던 아서는 자신의 백성을 구하기 위해 저주받은 서리한을 집어 든 순간 타락하고 말았습니다. 이제 그는 저주받은 자들의 군주로서 모든 이들에게 자신의 분노를 알리고 있습니다.</content>
+<content contentuid="h0f473d2cg2385g02cdg0b93gf1f9cec30f19" version="1">카라짐, 베라다니 수도사는 디아블로 세계관의 근접 치유사 영웅입니다. 이브고로드의 수도사들에게 신들은 모든 것에 깃들어 있으며, 그들의 신성한 뜻은 대사제들에 의해 선포됩니다. 흔들리지 않는 신념을 지닌 카라짐은 천 개의 신과 한 개의 신의 명을 받들어 성역과 그 너머의 세계를 향해 나아갑니다.</content>
+<content contentuid="hfbeed4b4g374cg536eg7785g16c044e51238" version="1">일리단 스톰레이지, 배신자는 워크래프트 세계관의 근접 암살자 영웅입니다. 최초의 악마 사냥꾼이었던 그는 아제로스가 악마의 침공을 받았을 때 새로운 영원의 샘을 창조함으로써 자신의 동족을 배신했습니다. 이제 일리단은 아웃랜드의 지배자로 군림하며, 무방비하게 그의 영역에 발을 들인 영웅들을 처단합니다.</content>
+<content contentuid="h6da35975g4dcdg45f5gf1b3g25b5015c8a26" version="1">제라툴, 암흑 정무관은 스타크래프트 세계관의 근접 암살자 영웅입니다. 신비로운 암흑 기사단으로서 그는 젤나가를 충실히 섬깁니다. 공허의 힘을 능숙하게 다루는 것은 물론이거니와, 그의 지혜 덕분에 코프룰루 구역의 위대한 지도자들로부터 깊은 존경을 받고 있습니다. 물론, 그의 극적인 등장 방식에도 불구하고 말이죠.</content>
+<content contentuid="h9b375f8ag717bgf458gcd58g36e76ce18cba" version="1">스랄, 호드의 대족장은 워크래프트 세계관의 근접 브루저 영웅입니다. 어린 시절 그는 잔혹한 애델라스 블랙무어의 노예로 살았습니다. 그러나 자유를 되찾은 후, 해방된 오크들을 새로운 터전으로 이끌었으며, 잃어버린 그들의 고대 전통을 되찾기 위해 힘썼습니다.</content>
+<content contentuid="hee4bd7e9g2dbcg08eag90e0g97d950e2bdb8" version="1">노벰버 "노바" 테라, 자치령 유령 요원은 스타크래프트 세계관의 원거리 암살자 영웅입니다. 그녀는 테란 자치령의 유령 요원이자, 지금껏 알려진 가장 강력한 사이오닉 병사 중 한 명입니다. 노바는 극도로 집중력이 강하고, 단호하며, 치명적인 전사입니다. 짐 레이너조차도 그녀의 조준선에 포착되는 것은 원치 않을 것입니다.</content>
+<content contentuid="hc93546c4g5c9egd53bg479eg7da58382a84e" version="1">캘타스 선스트라이더, 태양왕은 워크래프트 세계관의 원거리 암살자 영웅입니다. 모든 블러드 엘프들이 그렇듯, 퀠탈라스의 몰락은 왕자 캘타스를 완전히 변화시켰습니다. 마법 중독으로부터 자신의 백성을 구하기 위해 절박한 선택을 한 그는 불타는 군단과 손을 잡았고, 이제 폭풍 요새를 지배하고 있습니다.</content>
+<content contentuid="hadf65556g25e8g3581gf9a5ga5102c8d6328" version="1">티리엘, 정의의 대천사는 디아블로 세계관의 근접 탱커 영웅입니다. 천사들 중에서도 정의의 대천사야말로 인류의 가장 위대한 수호자입니다. 그의 검 엘드루인을 휘둘러 불타는 지옥에 맞서지 않았다면, 상급 악마들은 오래전에 성역과 인류 전체를 노예로 만들었을 것입니다.</content>
+<content contentuid="he1096146gd59bgb0f3ga3e0g0b0854bbbb59" version="1">록의 신</content>
+<content contentuid="h80cff64dg6b29gc4e8g49f8gd09b391722b1" version="1">파워 슬라이드</content>
+<content contentuid="hca59ed79g5b80gba8bgff86g0f4ae714746c" version="1">앞으로 돌진하여 경로상의 적을 공격하며, 그들을 &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;불안정 상태&lt;/LSTag&gt;로 만들 수도 있습니다.</content>
+<content contentuid="he7bce7e2g30d9g207dgfa35g4f4fa2154c76" version="1">고막 터트리기</content>
+<content contentuid="h895a7c23g523bg72f5g19a6ga47a910e80df" version="1">기타 솔로</content>
+<content contentuid="h4d7618d2gc5a3gbf84gae21ga8a4ecf900b7" version="1">소냐: 방랑하는 야만용사</content>
+<content contentuid="h22ca598eg244bg1a34g41b6g7019cb43b319" version="1">턴마다 한 번, 적에게 피해를 줄 때 2턴 동안 분노를 획득합니다.</content>
+<content contentuid="h712028cagf7dcga1f5g986bg2d0b3aa80429" version="1">고대의 창, 지진 강타, 소용돌이를 해금합니다.</content>
+<content contentuid="h7b99bd2cg8db9g91c8g72abgf48ff2c6996b" version="1">소냐, 방랑하는 야만용사는 디아블로 세계관의 근접 브루저 영웅입니다. 북쪽의 얼어붙은 공포의 땅에서 강력한 야만용사 전사들이 태어났습니다. 고향이 파괴되고 부족이 몰살당한 후, 소냐는 전투와 자신의 민족을 위한 더 나은 삶을 찾아 성역을 방랑합니다.</content>
+<content contentuid="h9aa6dbf7g9f99g1cccg3413g517ad8e809e0" version="1">고대의 창</content>
+<content contentuid="h036aca70g24fbg8204ga314gffcc108cb87a" version="1">적에게 관통 피해를 주고 그 위치로 이동합니다.</content>
+<content contentuid="h6edeedc0g8bd8g276bg8ee9gf7db44a86762" version="1">지진 강타</content>
+<content contentuid="h3b91a247gb89bg18a6g4f1ege4c9a75fe308" version="1">강인한 힘을 집중하여 범위 내 모든 크리처를 강타합니다.</content>
+<content contentuid="h3e7000f4g44d6gf275g45bfg1f5f608dbf1a" version="1">지진 강타</content>
+<content contentuid="hd47d5869g2f12g05a9g1db2ge5cd7a2a0c2f" version="1">강인한 힘을 집중하여 범위 내 모든 크리처를 강타합니다.</content>
+<content contentuid="h94156076gdf9bgc9fcgd4c8g13015cf0198e" version="1">지진 강타</content>
+<content contentuid="h35c3abc5gc77cgb837g3dd5gd9324d3c223a" version="1">징벌, 단죄, 방패 섬광을 해금합니다.</content>
+<content contentuid="hfaf6fd4ag0b0ag6a1dge895gedcf13f78aa7" version="1">요한나, 자카룸의 성전사는 디아블로 세계관의 근접 탱커 영웅입니다. 성전의 이름을 이어받은 많은 여성이 신앙을 정화하기 위해 자신의 목숨을 바쳤습니다. 요한나는 그들의 유산을 이어받아, 칸두라스 왕국에서 떨어진 별을 찾고 있습니다.</content>
+<content contentuid="h99bea93bg1912g35fdgbcb5g8d8d7271bf7b" version="1">징벌</content>
+<content contentuid="hd24616b7gbe80g3249g95c3g4b3a5419ca1e" version="1">단죄</content>
+<content contentuid="h22d3b47egc35cgb687g07bfg5c5e35cd6147" version="1">모든 것을 당신에게 [1] 끌어당깁니다 .</content>
+<content contentuid="h21e3bc8fg838fgdf64g4fd8g0f772ed1b5d5" version="1">방패 섬광</content>
+<content contentuid="h666c6707g1249g357fgc08fgf679f84e5815" version="1">&lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;실명&lt;/LSTag&gt; 상태로 만듭니다.</content>
 </contentList>
