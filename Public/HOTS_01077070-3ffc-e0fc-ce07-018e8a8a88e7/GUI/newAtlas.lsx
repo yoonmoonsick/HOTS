@@ -61,6 +61,62 @@
                     <attribute id="V2" type="float" value="0.062011719"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ETC_0_Rockstar"/>
+                    <attribute id="U1" type="float" value="0.18798828"/>
+                    <attribute id="U2" type="float" value="0.24951172"/>
+                    <attribute id="V1" type="float" value="0.25048828"/>
+                    <attribute id="V2" type="float" value="0.31201172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ETC_1_Powerslide"/>
+                    <attribute id="U1" type="float" value="0.25048828"/>
+                    <attribute id="U2" type="float" value="0.31201172"/>
+                    <attribute id="V1" type="float" value="0.25048828"/>
+                    <attribute id="V2" type="float" value="0.31201172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ETC_2_FaceMelt"/>
+                    <attribute id="U1" type="float" value="0.31298828"/>
+                    <attribute id="U2" type="float" value="0.37451172"/>
+                    <attribute id="V1" type="float" value="0.25048828"/>
+                    <attribute id="V2" type="float" value="0.31201172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ETC_3_GuitarSolo"/>
+                    <attribute id="U1" type="float" value="0.37548828"/>
+                    <attribute id="U2" type="float" value="0.43701172"/>
+                    <attribute id="V1" type="float" value="0.25048828"/>
+                    <attribute id="V2" type="float" value="0.31201172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Guldan_0_HungerforPower"/>
+                    <attribute id="U1" type="float" value="0.43798828"/>
+                    <attribute id="U2" type="float" value="0.49951172"/>
+                    <attribute id="V1" type="float" value="0.25048828"/>
+                    <attribute id="V2" type="float" value="0.31201172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Guldan_1_FelFlame"/>
+                    <attribute id="U1" type="float" value="0.00048828125"/>
+                    <attribute id="U2" type="float" value="0.062011719"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Guldan_2_DrainLife"/>
+                    <attribute id="U1" type="float" value="0.062988281"/>
+                    <attribute id="U2" type="float" value="0.12451172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Guldan_3_Corruption"/>
+                    <attribute id="U1" type="float" value="0.12548828"/>
+                    <attribute id="U2" type="float" value="0.18701172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Illidan_BetrayersThirst"/>
                     <attribute id="U1" type="float" value="0.50048828"/>
                     <attribute id="U2" type="float" value="0.56201172"/>
@@ -87,6 +143,62 @@
                     <attribute id="U2" type="float" value="0.74951172"/>
                     <attribute id="V1" type="float" value="0.00048828125"/>
                     <attribute id="V2" type="float" value="0.062011719"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Jaina_0_Frostbite"/>
+                    <attribute id="U1" type="float" value="0.18798828"/>
+                    <attribute id="U2" type="float" value="0.24951172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Jaina_1_Frostbolt"/>
+                    <attribute id="U1" type="float" value="0.25048828"/>
+                    <attribute id="U2" type="float" value="0.31201172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Jaina_2_Blizzard"/>
+                    <attribute id="U1" type="float" value="0.31298828"/>
+                    <attribute id="U2" type="float" value="0.37451172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Jaina_3_Coneof_Cold"/>
+                    <attribute id="U1" type="float" value="0.37548828"/>
+                    <attribute id="U2" type="float" value="0.43701172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Johanna_0_IronSkin"/>
+                    <attribute id="U1" type="float" value="0.43798828"/>
+                    <attribute id="U2" type="float" value="0.49951172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Johanna_1_Punish"/>
+                    <attribute id="U1" type="float" value="0.50048828"/>
+                    <attribute id="U2" type="float" value="0.56201172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Johanna_2_Condemn"/>
+                    <attribute id="U1" type="float" value="0.56298828"/>
+                    <attribute id="U2" type="float" value="0.62451172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Johanna_3_ShieldGlare"/>
+                    <attribute id="U1" type="float" value="0.62548828"/>
+                    <attribute id="U2" type="float" value="0.68701172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Kaelthas_Flamestrike"/>
@@ -227,6 +339,62 @@
                     <attribute id="U2" type="float" value="0.99951172"/>
                     <attribute id="V1" type="float" value="0.062988281"/>
                     <attribute id="V2" type="float" value="0.12451172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Rehgar_0_GhostWolf"/>
+                    <attribute id="U1" type="float" value="0.68798828"/>
+                    <attribute id="U2" type="float" value="0.74951172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Rehgar_1_ChainHeal"/>
+                    <attribute id="U1" type="float" value="0.75048828"/>
+                    <attribute id="U2" type="float" value="0.81201172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Rehgar_2_LightningShield"/>
+                    <attribute id="U1" type="float" value="0.81298828"/>
+                    <attribute id="U2" type="float" value="0.87451172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Rehgar_3_EarthbindTotem"/>
+                    <attribute id="U1" type="float" value="0.87548828"/>
+                    <attribute id="U2" type="float" value="0.93701172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sonya_0_Fury"/>
+                    <attribute id="U1" type="float" value="0.93798828"/>
+                    <attribute id="U2" type="float" value="0.99951172"/>
+                    <attribute id="V1" type="float" value="0.18798828"/>
+                    <attribute id="V2" type="float" value="0.24951172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sonya_1_AncientSpear"/>
+                    <attribute id="U1" type="float" value="0.00048828125"/>
+                    <attribute id="U2" type="float" value="0.062011719"/>
+                    <attribute id="V1" type="float" value="0.25048828"/>
+                    <attribute id="V2" type="float" value="0.31201172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sonya_2_SeismicSlam"/>
+                    <attribute id="U1" type="float" value="0.062988281"/>
+                    <attribute id="U2" type="float" value="0.12451172"/>
+                    <attribute id="V1" type="float" value="0.25048828"/>
+                    <attribute id="V2" type="float" value="0.31201172"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sonya_3_Whirlwind"/>
+                    <attribute id="U1" type="float" value="0.12548828"/>
+                    <attribute id="U2" type="float" value="0.18701172"/>
+                    <attribute id="V1" type="float" value="0.25048828"/>
+                    <attribute id="V2" type="float" value="0.31201172"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Thrall_ChainLightning"/>
