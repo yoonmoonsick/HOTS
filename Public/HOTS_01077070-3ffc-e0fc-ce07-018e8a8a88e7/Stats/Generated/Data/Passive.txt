@@ -187,6 +187,7 @@ data "StatsFunctors" "ApplyStatus(SELF,MAG_VIOLENCE,100,2);ApplyStatus(SELF,MAG_
 new entry "Johanna_0_IronSkin"
 type "PassiveData"
 using "MAG_ZOC_ForceConduit_HeavyArmor_Passive"
+data "DisplayName" "hf087711fgfe69g75ebgcc9eg62989793b475;1"
 data "ExtraDescription" "h35c3abc5gc77cgb837g3dd5gd9324d3c223a;1"
 data "LoreDescription" "hfaf6fd4ag0b0ag6a1dge895gedcf13f78aa7;1"
 data "Icon" "Johanna_0_IronSkin"

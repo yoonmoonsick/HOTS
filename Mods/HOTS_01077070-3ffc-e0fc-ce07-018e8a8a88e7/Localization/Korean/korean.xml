@@ -121,7 +121,7 @@
 <content contentuid="hadf65556g25e8g3581gf9a5ga5102c8d6328" version="1">티리엘, 정의의 대천사는 디아블로 세계관의 근접 탱커 영웅입니다. 천사들 중에서도 정의의 대천사야말로 인류의 가장 위대한 수호자입니다. 그의 검 엘드루인을 휘둘러 불타는 지옥에 맞서지 않았다면, 상급 악마들은 오래전에 성역과 인류 전체를 노예로 만들었을 것입니다.</content>
 <content contentuid="he1096146gd59bgb0f3ga3e0g0b0854bbbb59" version="1">록의 신</content>
 <content contentuid="h80cff64dg6b29gc4e8g49f8gd09b391722b1" version="1">파워 슬라이드</content>
-<content contentuid="hca59ed79g5b80gba8bgff86g0f4ae714746c" version="1">앞으로 돌진하여 경로상의 적을 공격하며, 그들을 &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;불안정 상태&lt;/LSTag&gt;로 만들 수도 있습니다.</content>
+<content contentuid="hca59ed79g5b80gba8bgff86g0f4ae714746c" version="1">악기를 연주하며 돌진하여 경로상의 적을 공격하며, 그들을 &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;불안정 상태&lt;/LSTag&gt;로 만들 수도 있습니다.</content>
 <content contentuid="he7bce7e2g30d9g207dgfa35g4f4fa2154c76" version="1">고막 터트리기</content>
 <content contentuid="h895a7c23g523bg72f5g19a6ga47a910e80df" version="1">기타 솔로</content>
 <content contentuid="h4d7618d2gc5a3gbf84gae21ga8a4ecf900b7" version="1">소냐: 방랑하는 야만용사</content>
@@ -142,4 +142,8 @@
 <content contentuid="h22d3b47egc35cgb687g07bfg5c5e35cd6147" version="1">모든 것을 당신에게 [1] 끌어당깁니다 .</content>
 <content contentuid="h21e3bc8fg838fgdf64g4fd8g0f772ed1b5d5" version="1">방패 섬광</content>
 <content contentuid="h666c6707g1249g357fgc08fgf679f84e5815" version="1">&lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;실명&lt;/LSTag&gt; 상태로 만듭니다.</content>
+<content contentuid="hf087711fgfe69g75ebgcc9eg62989793b475" version="1">요한나: 자카룸의 성전사</content>
+<content contentuid="h3b3b06a9gc908g99aeg4bcbgacbd0c7f16a3" version="1">공연 판정을 시도할 수 있으며, 성공하면 적에게 피해를 주고 밀쳐냅니다.</content>
+<content contentuid="h80f53cdfg3fb9g6d6ege0f4g99b82928f9d8" version="1">악기를 연주하여 자신의 체력을 회복합니다.</content>
+<content contentuid="h050998d6g60e1g9d41g74aaga768e5b5f5ff" version="1">공연 판정에 성공하면 추가 체력을 회복합니다.</content>
 </contentList>

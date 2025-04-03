@@ -121,7 +121,7 @@
   <content contentuid="hadf65556g25e8g3581gf9a5ga5102c8d6328" version="1">Tyrael, the Archangel of Justice, is a melee Tank Hero from the Diablo universe. Among the angels it is the Archangel of Justice who is humanity's greatest defender. Wielding his sword El'druin against the Burning Hells, the Prime Evils would have enslaved Sanctuary and all of humanity long ago if Tyrael had not intervened.</content>
   <content contentuid="he1096146gd59bgb0f3ga3e0g0b0854bbbb59" version="1">Rock God</content>
   <content contentuid="h80cff64dg6b29gc4e8g49f8gd09b391722b1" version="1">Power Slide</content>
-  <content contentuid="hca59ed79g5b80gba8bgff86g0f4ae714746c" version="1">Charge forward and attack enemies in your way, possibly pushing them &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;Off Balance&lt;/LSTag&gt;.</content>
+  <content contentuid="hca59ed79g5b80gba8bgff86g0f4ae714746c" version="2">You play a musical instrument while dashing forward, possibly pushing them &lt;LSTag Type="Status" Tooltip="OFF_BALANCED"&gt;Off Balance&lt;/LSTag&gt;.</content>
   <content contentuid="he7bce7e2g30d9g207dgfa35g4f4fa2154c76" version="1">Face Melt</content>
   <content contentuid="h895a7c23g523bg72f5g19a6ga47a910e80df" version="1">Guitar Solo</content>
   <content contentuid="h4d7618d2gc5a3gbf84gae21ga8a4ecf900b7" version="1">Sonya: Wandering Barbarian</content>
@@ -142,4 +142,8 @@
   <content contentuid="h22d3b47egc35cgb687g07bfg5c5e35cd6147" version="1">Pull anything and anyone into you [1].</content>
   <content contentuid="h21e3bc8fg838fgdf64g4fd8g0f772ed1b5d5" version="1">Shield Glare</content>
   <content contentuid="h666c6707g1249g357fgc08fgf679f84e5815" version="1">&lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;Blind&lt;/LSTag&gt; creatures.</content>
+  <content contentuid="hf087711fgfe69g75ebgcc9eg62989793b475" version="1">Johanna: Crusader of Zakarum</content>
+  <content contentuid="h3b3b06a9gc908g99aeg4bcbgacbd0c7f16a3" version="1">You can attempt a Performance check; on a success, you deal damage to an enemy and push it away.</content>
+  <content contentuid="h80f53cdfg3fb9g6d6ege0f4g99b82928f9d8" version="1">You play a musical instrument to restore your own hit points.</content>
+  <content contentuid="h050998d6g60e1g9d41g74aaga768e5b5f5ff" version="1">If you succeed on a Performance check, you restore additional hit points.</content>
 </contentList>

@@ -240,6 +240,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_Johanna_1_Punish);UnlockSpell(Shout_Johanna_2_Condemn);UnlockSpell(Zone_Johanna_3_ShieldGlare);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf087711fgfe69g75ebgcc9eg62989793b475" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -60,7 +60,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(Character() and not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(OFF_BALANCED,100,2);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand)" />
         <field name="Icon" type="StringTableFieldDefinition" value="ETC_1_Powerslide" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h80cff64dg6b29gc4e8g49f8gd09b391722b1" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hca59ed79g5b80gba8bgff86g0f4ae714746c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hca59ed79g5b80gba8bgff86g0f4ae714746c" version="2" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType); " />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -70,6 +70,8 @@
         <field name="InstrumentComponentCastSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Cast" />
         <field name="InstrumentComponentImpactSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Impact" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Instrument" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="PerformanceCheck()" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Charisma" />
       </fields>
     </stat_object>
   </stat_objects>
