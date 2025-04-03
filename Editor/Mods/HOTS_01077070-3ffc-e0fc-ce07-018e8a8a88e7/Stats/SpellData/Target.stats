@@ -295,5 +295,34 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;NoCooldownOnMiss" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="264ca27c-cc5b-4ee0-85b4-cdc3f59d4541" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sonya_1_AncientSpear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7732eadb-c390-40c0-b4f8-291c903c8566" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource()" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Piercing,Magical);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sonya_1_AncientSpear" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9aa6dbf7g9f99g1cccg3413g517ad8e809e0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h036aca70g24fbg8204ga314gffcc108cb87a" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Piercing);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1966efcd-95b0-4068-bf9a-702be5f23fee" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="194be420-5a76-4794-bc27-c27e036413bd" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="PassivesVFX">
+        <node id="root">
+            <children>
+                <node id="Passives">
+                    <attribute id="CastEffect" type="guid" value="8df91641-7686-4a6b-a821-3181b7031dd1"/>
+                    <attribute id="PassiveName" type="FixedString" value="ETC_RockGod"/>
+                    <attribute id="PrepareEffect" type="guid" value="abc10591-68a7-4ada-b379-a9a117295381"/>
+                    <attribute id="UUID" type="guid" value="19783d25-9545-4d54-8de9-11ba4880efbf"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -132,5 +132,59 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="206d81c8-aea9-4948-b752-481500ca9484" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sonya_2_SeismicSlam" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8f644709-1f5e-4013-a100-b9139fc64a4c" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sonya_2_SeismicSlam" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h94156076gdf9bgc9fcgd4c8g13015cf0198e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efeaf131-97c1-4d4a-8ceb-a60127e4958b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Johanna_1_Punish" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01795a2f-ecbd-4492-8075-948ea071206c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);ApplyStatus(HAMSTRING,100,2)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Johanna_1_Punish" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99bea93bg1912g35fdgbcb5g8d8d7271bf7b" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack;Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HAMSTRING,100,2)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;722df2d7-7898-4b0b-b930-5a850b55ccf0,722df2d7-7898-4b0b-b930-5a850b55ccf0,722df2d7-7898-4b0b-b930-5a850b55ccf0;a693a7c3-e7e7-4edb-98dd-db5fd700663f,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasShieldEquipped(context.Source)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainWeaponDamageType)" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c73221d-49ca-4f4d-a310-56fb1e6763d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Johanna_3_ShieldGlare" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f9b9521-062b-430d-b074-f9b1d149af47" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SUNBEAM,100,2)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Johanna_3_ShieldGlare" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21e3bc8fg838fgdf64g4fd8g0f772ed1b5d5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h666c6707g1249g357fgc08fgf679f84e5815" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SUNBEAM,100,2)" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;d30d2b40-c45a-45bd-94d7-9b2baaf0f77b,,;a601b33c-5320-455d-b4d4-74d6dc35b757,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="MaximumTotalTargetHP" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasShieldEquipped(context.Source)" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="bb817069-1b71-4b63-959c-b85e03a492eb" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2ef28b19-d0cc-4260-8dc5-b1905c116add" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="ddc1430f-4a0d-42c3-9ac8-ec4c3deaed35" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="94cab8bc-58f3-450d-8138-c1852ce28ee7" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

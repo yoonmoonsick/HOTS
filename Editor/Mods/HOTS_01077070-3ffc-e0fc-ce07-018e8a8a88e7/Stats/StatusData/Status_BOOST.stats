@@ -164,5 +164,16 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="IncreaseMaxHP(LevelMapValue(D10Cantrip))" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5d721ed-bac1-4450-a21f-b5492c4d3a89" />
+        <field name="Name" type="NameTableFieldDefinition" value="ETC_ROCK_GOD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4375bf51-d285-40bf-93b4-2e661832f3c5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1096146gd59bgb0f3ga3e0g0b0854bbbb59" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ETC_0_Rockstar" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ETC_ROCK_GOD" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

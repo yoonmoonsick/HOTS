@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="161d8c6c-4759-4fb4-9e05-76dd4e7262ad">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="19783d25-9545-4d54-8de9-11ba4880efbf" />
+        <field name="PassiveName" type="FixedStringTableFieldDefinition" value="ETC_RockGod" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="abc10591-68a7-4ada-b379-a9a117295381" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8df91641-7686-4a6b-a821-3181b7031dd1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

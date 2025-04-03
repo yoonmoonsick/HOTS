@@ -139,3 +139,12 @@ data "DescriptionParams" "RegainHitPoints(LevelMapValue(D10Cantrip));"
 data "Icon" "Tyrael_Righteousness"
 data "Boosts" "IncreaseMaxHP(LevelMapValue(D10Cantrip))"
 
+new entry "ETC_ROCK_GOD"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SHIELD_OF_FAITH"
+data "DisplayName" "he1096146gd59bgb0f3ga3e0g0b0854bbbb59;1"
+data "Icon" "ETC_0_Rockstar"
+data "StackId" "ETC_ROCK_GOD"
+data "TickType" "EndTurn"
+

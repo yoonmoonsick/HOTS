@@ -209,5 +209,84 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="765fc3f5-b945-49a4-8a56-67b3d00f954c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ETC_2_FaceMelt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="27a05468-fd1c-4f3b-ae1c-ffc123aebc01" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="AIFlags" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="Force(6);DealDamage(LevelMapValue(D10Cantrip),Thunder,Magical)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip)/2,Thunder,Magical)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not Ally()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ETC_2_FaceMelt" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he7bce7e2g30d9g207dgfa35g4f4fa2154c76" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Thunder)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Bard_SongOfRest_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Bard_SongOfRest_L1to3" />
+        <field name="InstrumentComponentPrepareSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Prepare" />
+        <field name="InstrumentComponentLoopingSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Loop" />
+        <field name="InstrumentComponentCastSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Cast" />
+        <field name="InstrumentComponentImpactSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Impact" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="850cd2f3-dde2-475d-b3a3-f35c47333523,,;,,;8bfc0edf-5baa-4344-a486-14032de5ab69,,;3935e00c-7d43-4243-a4ef-4c680530d593,,;ad775f69-0d9f-4215-bfc2-8e0ec7e32189,,;,,;6bfce8a0-80f1-47a8-97f4-34f4b8b6fe9e,,;,,;,," />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Thunder" enumeration_type_name="Damage Type" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2af907e1-127c-4c83-a117-af18f211c59d" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Instrument" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff87b07f-3700-4ab7-86d0-78d6ba5b85c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="ETC_3_GuitarSolo" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="742ed8b9-f733-40a1-915c-a31f96fbe885" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ETC_3_GuitarSolo" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h895a7c23g523bg72f5g19a6ga47a910e80df" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Bard_SongOfRest_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Bard_SongOfRest_L1to3" />
+        <field name="InstrumentComponentPrepareSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Prepare" />
+        <field name="InstrumentComponentLoopingSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Loop" />
+        <field name="InstrumentComponentCastSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Cast" />
+        <field name="InstrumentComponentImpactSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Impact" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="850cd2f3-dde2-475d-b3a3-f35c47333523,,;,,;8bfc0edf-5baa-4344-a486-14032de5ab69,,;3935e00c-7d43-4243-a4ef-4c680530d593,,;ad775f69-0d9f-4215-bfc2-8e0ec7e32189,,;,,;6bfce8a0-80f1-47a8-97f4-34f4b8b6fe9e,,;,,;,," />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Instrument" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ec31f61-4926-4aa4-95d6-d93b45f9c1f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sonya_3_Whirlwind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bb00c28b-ebbf-4804-b492-cdd8bfae7bd5" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sonya_3_Whirlwind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1654ef42-c73f-47ad-91d7-9f47d8c4dbba" />
+        <field name="Name" type="NameTableFieldDefinition" value="Johanna_2_Condemn" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="27a05468-fd1c-4f3b-ae1c-ffc123aebc01" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="Force(-6);DealDamage(LevelMapValue(D10Cantrip),Radiant,Magical)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip)/2,Radiant,Magical)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Johanna_2_Condemn" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd24616b7gbe80g3249g95c3g4b3a5419ca1e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22d3b47egc35cgb687g07bfg5c5e35cd6147" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Radiant)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_RadianceOfTheDawn" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_RadianceOfTheDawn" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="71369b20-18f1-4d33-89ad-a99b10f0444c,,;48beee2b-7124-4fa1-b820-dab4d89198d4,,;bcecc5ce-e7c9-4391-b4b6-5f93872ba2e6,,;9add032c-e500-4e88-a2ea-ef6c905bd656,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;d9feef5a-3726-4e23-95e5-6ec295efdc96,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="be75ea00-f753-4d9e-ab04-4993691d099c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="f9bc3cd3-f438-405d-869b-f567a5c40061" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d8e81fe8-7cb8-43fd-8f03-ecb45618e523" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
