@@ -317,12 +317,5 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1966efcd-95b0-4068-bf9a-702be5f23fee" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="194be420-5a76-4794-bc27-c27e036413bd" />
-      </fields>
-    </stat_object>
   </stat_objects>
 </stats>

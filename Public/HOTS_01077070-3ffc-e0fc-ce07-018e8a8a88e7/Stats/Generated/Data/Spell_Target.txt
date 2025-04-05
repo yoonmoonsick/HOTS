@@ -286,8 +286,3 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "Sheathing" "Melee"
 
-new entry "Target_New_Stat_0"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_ShieldBlow_Riposte"
-

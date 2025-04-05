@@ -15,6 +15,7 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STUNNED,100,1);" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold;IsHarmful;IgnoreSilence;IgnoreVisionBlock;AddFallDamageOnLand;PickupEntityAndMove;CombatLogSetSingleLineRoll" enumeration_type_name="SpellFlagList" version="1" />
         <field name="ThrowableTargetConditions" type="StringTableFieldDefinition" value="IsImprovisedWeapon() and DiabloCanImprovisedWeaponWeight() and not Grounded() and not IsItemDisabled() and not HasAttribute('InventoryBound') and (IsMovable() or Character() or Dead()) and CanMove(context.Target, context.Source, false) and not Tagged('CANT_SHOVE_THROW')" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
