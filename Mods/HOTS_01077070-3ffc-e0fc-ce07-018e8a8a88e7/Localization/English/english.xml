@@ -146,4 +146,11 @@
   <content contentuid="h3b3b06a9gc908g99aeg4bcbgacbd0c7f16a3" version="1">You can attempt a Performance check; on a success, you deal damage to an enemy and push it away.</content>
   <content contentuid="h80f53cdfg3fb9g6d6ege0f4g99b82928f9d8" version="1">You play a musical instrument to restore your own hit points.</content>
   <content contentuid="h050998d6g60e1g9d41g74aaga768e5b5f5ff" version="1">If you succeed on a Performance check, you restore additional hit points.</content>
+  <content contentuid="h27226714gd787gd27dg4eacga2088b69ca57" version="1">Jaina: Archmage</content>
+  <content contentuid="h59e0ef66g1277g4f87ge249g3de9586d59ec" version="2">An enemy afflicted by cold damage gradually accumulates a cold-related status effect. At first, their movement speed is reduced; then they become more vulnerable to cold damage; and finally, they become completely frozen, unable to act for a short time.</content>
+  <content contentuid="ha2224eadg2029g1120gd486g4df393d49b22" version="1">Unlock Frostbolt, Blizzard, Cone of Cold</content>
+  <content contentuid="h83402088gd6ffgd0acg33c4g7f4b60ebba30" version="1">Jaina Proudmoore, the Archmage, is a Ranged Assassin Hero from the Warcraft universe. She is a master spellcaster, trained by the legendary Archmage Antonidas himself. Brilliant, courageous, and wise, it was Jaina who led the survivors of the Scourge of Lordaeron to safety. But don’t mistake her graciousness for weakness, or she will gladly demonstrate to you the folly of picking a fight with a sorceress.</content>
+  <content contentuid="h4f812cddg3c18g4970gcebdg1802d11c2a64" version="1">Frostbolt</content>
+  <content contentuid="he189e4eag6657ge4cfg6049gaa1c656483c6" version="1">Blizzard</content>
+  <content contentuid="h4b79b612g8370g94b3g0d1bg7619100c7fc7" version="1">Call forth a blizzard that disrupts the &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; of spellcasters, douses fires, and creates an ice surface.</content>
 </contentList>

@@ -243,5 +243,23 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf087711fgfe69g75ebgcc9eg62989793b475" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe026f65-959b-45b0-98e0-70d732b3aab0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Jaina_0_Frostbite" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fa5209d8-1635-4804-a46b-36fe6ab9db0d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h27226714gd787gd27dg4eacga2088b69ca57" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h59e0ef66g1277g4f87ge249g3de9586d59ec" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha2224eadg2029g1120gd486g4df393d49b22" version="1" />
+        <field name="LoreDescription" type="TranslatedStringTableFieldDefinition" handle="h83402088gd6ffgd0acg33c4g7f4b60ebba30" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Jaina_0_Frostbite" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Jaina_1_Frostbolt);UnlockSpell(Target_Jaina_2_Blizzard);UnlockSpell(Zone_Jaina_3_Coneof_Cold);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageDoneForType(DamageType.Cold)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, SourceSpellDC()):ApplyStatus(RAY_OF_FROST_JAINA,100,2);IF(HasStatus('RAY_OF_FROST') and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(CHILLED, 100, 2);IF(HasStatus('CHILLED') and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(FROZEN, 100, 2);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

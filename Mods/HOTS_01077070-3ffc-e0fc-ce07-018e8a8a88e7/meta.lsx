@@ -9,7 +9,7 @@
                     <children>
                         <node id="ModuleShortDesc">
                             <attribute id="Folder" type="LSString" value="DiceSet_01"/>
-                            <attribute id="MD5" type="LSString" value=""/>
+                            <attribute id="MD5" type="LSString" value="8edd9729dcdbcafdbba0770834bdd323"/>
                             <attribute id="Name" type="LSString" value="DiceSet_01"/>
                             <attribute id="PublishHandle" type="uint64" value="0"/>
                             <attribute id="UUID" type="guid" value="e842840a-2449-588c-b0c4-22122cfce31b"/>
@@ -17,7 +17,7 @@
                         </node>
                         <node id="ModuleShortDesc">
                             <attribute id="Folder" type="LSString" value="DiceSet_02"/>
-                            <attribute id="MD5" type="LSString" value=""/>
+                            <attribute id="MD5" type="LSString" value="9c98eaefccfb3f7cfd6870ff4e84a50d"/>
                             <attribute id="Name" type="LSString" value="DiceSet_02"/>
                             <attribute id="PublishHandle" type="uint64" value="0"/>
                             <attribute id="UUID" type="guid" value="b176a0ac-d79f-ed9d-5a87-5c2c80874e10"/>
@@ -25,7 +25,7 @@
                         </node>
                         <node id="ModuleShortDesc">
                             <attribute id="Folder" type="LSString" value="DiceSet_03"/>
-                            <attribute id="MD5" type="LSString" value=""/>
+                            <attribute id="MD5" type="LSString" value="1767796847a3f60172d76faaaf08caff"/>
                             <attribute id="Name" type="LSString" value="DiceSet_03"/>
                             <attribute id="PublishHandle" type="uint64" value="0"/>
                             <attribute id="UUID" type="guid" value="e0a4d990-7b9b-8fa9-d7c6-04017c6cf5b1"/>
@@ -33,7 +33,7 @@
                         </node>
                         <node id="ModuleShortDesc">
                             <attribute id="Folder" type="LSString" value="DiceSet_06"/>
-                            <attribute id="MD5" type="LSString" value=""/>
+                            <attribute id="MD5" type="LSString" value="4a53b4f61b1667007e21c661309b7435"/>
                             <attribute id="Name" type="LSString" value="DiceSet_06"/>
                             <attribute id="PublishHandle" type="uint64" value="0"/>
                             <attribute id="UUID" type="guid" value="ee4989eb-aab8-968f-8674-812ea2f4bfd7"/>
@@ -41,7 +41,7 @@
                         </node>
                         <node id="ModuleShortDesc">
                             <attribute id="Folder" type="LSString" value="MainUI"/>
-                            <attribute id="MD5" type="LSString" value=""/>
+                            <attribute id="MD5" type="LSString" value="d41d8cd98f00b204e9800998ecf8427e"/>
                             <attribute id="Name" type="LSString" value="MainUI"/>
                             <attribute id="PublishHandle" type="uint64" value="0"/>
                             <attribute id="UUID" type="guid" value="630daa32-70f8-3da5-41b9-154fe8410236"/>
@@ -84,19 +84,19 @@
                 <node id="ModuleInfo">
                     <attribute id="Author" type="LSString" value="Yoonmoonsick"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
-                    <attribute id="Description" type="LSString" value="This is a mod that adds feats inspired by the basic abilities and skills of heroes from *Heroes of the Storm*. Select one passive from the Feats. "/>
-                    <attribute id="FileSize" type="uint64" value="674971"/>
+                    <attribute id="Description" type="LSString" value="This is a mod that adds feats inspired by the basic abilities and skills of heroes from *Heroes of the Storm*. Select one passive from the Feats."/>
+                    <attribute id="FileSize" type="uint64" value="2543432"/>
                     <attribute id="Folder" type="LSString" value="HOTS_01077070-3ffc-e0fc-ce07-018e8a8a88e7"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="2f31eeca3500f3dbc081308c153dc629"/>
+                    <attribute id="MD5" type="LSString" value="4e20a069ae5ddf98ed39fbdc7347aa3e"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
-                    <attribute id="Name" type="LSString" value="Feat: Heroes of the Storm"/>
+                    <attribute id="Name" type="LSString" value="Heroes of the Storm (HOTS Feats)"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
                     <attribute id="PhotoBooth" type="FixedString" value=""/>
                     <attribute id="PublishHandle" type="uint64" value="4761368"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="01077070-3ffc-e0fc-ce07-018e8a8a88e7"/>
-                    <attribute id="Version64" type="int64" value="36310271995674628"/>
+                    <attribute id="Version64" type="int64" value="36310271995674630"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718297457"/>

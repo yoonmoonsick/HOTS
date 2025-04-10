@@ -186,5 +186,22 @@
         <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="94cab8bc-58f3-450d-8138-c1852ce28ee7" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d9597cc-55f2-44f8-a96b-54bf5487298b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Jaina_3_Coneof_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9247eda3-6768-47b1-b625-1811691f4078" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Cold,Magical)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip)/2,Cold,Magical)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Jaina_3_Coneof_Cold" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(5);DealDamage(LevelMapValue(D10Cantrip),Cold)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Cold)" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

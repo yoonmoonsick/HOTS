@@ -175,5 +175,25 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad5ebb03-ee89-4644-a057-d7fbd8d2ec9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="JAINA_BLIZZARD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="74ae1f66-0b86-4608-bc9a-616331c282f1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he189e4eag6657ge4cfg6049gaa1c656483c6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Jaina_2_Blizzard" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="CreateExplosion(Projectile_Jaina_2_Blizzard)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="CreateExplosion(Projectile_Jaina_2_Blizzard)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01d89f8a-4b52-475d-83e7-418573effaea" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAY_OF_FROST_JAINA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4dc3d3f2-5276-46d3-a67b-d63587dc1049" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="99" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

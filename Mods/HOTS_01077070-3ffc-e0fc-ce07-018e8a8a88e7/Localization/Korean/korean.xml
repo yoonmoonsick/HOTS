@@ -146,4 +146,11 @@
 <content contentuid="h3b3b06a9gc908g99aeg4bcbgacbd0c7f16a3" version="1">공연 판정을 시도하여, 성공하면 적에게 피해를 주고 밀쳐냅니다.</content>
 <content contentuid="h80f53cdfg3fb9g6d6ege0f4g99b82928f9d8" version="1">악기를 연주하여 자신의 생명력을 회복합니다.</content>
 <content contentuid="h050998d6g60e1g9d41g74aaga768e5b5f5ff" version="1">공연 판정에 성공하면 추가 생명력을 회복합니다.</content>
+<content contentuid="h27226714gd787gd27dg4eacga2088b69ca57" version="1">제이나: 대마법사</content>
+<content contentuid="h59e0ef66g1277g4f87ge249g3de9586d59ec" version="2">적이 냉기 피해를 입으면 점차 냉기 관련 상태 이상이 누적됩니다. 처음에는 이동 속도가 느려지고, 그 다음에는 냉기 피해에 더욱 취약해지며, 마지막에는 완전히 얼어붙어 짧은 시간 동안 행동할 수 없게 됩니다.</content>
+<content contentuid="ha2224eadg2029g1120gd486g4df393d49b22" version="1">서리 화살, 눈보라, 냉기 분사를 해금합니다</content>
+<content contentuid="h83402088gd6ffgd0acg33c4g7f4b60ebba30" version="1">대마법사 제이나 프라우드무어는 워크래프트 세계관 출신의 원거리 암살자 영웅입니다. 그녀는 전설적인 대마법사 안토니다스에게 직접 수련받은 마법의 대가입니다. 총명하고 용감하며 지혜로운 제이나는 로데론의 스컬지 생존자들을 안전한 곳으로 이끈 인물이기도 합니다. 그러나 그녀의 친절함을 약하게 보지 마십시오. 싸움을 걸었다간 마법사의 무서움을 뼈저리게 느끼게 될 테니 말입니다.</content>
+<content contentuid="h4f812cddg3c18g4970gcebdg1802d11c2a64" version="1">서리 화살</content>
+<content contentuid="he189e4eag6657ge4cfg6049gaa1c656483c6" version="1">눈보라</content>
+<content contentuid="h4b79b612g8370g94b3g0d1bg7619100c7fc7" version="1">눈보라를 불러내어 시전자의 &lt;LSTag Tooltip="Concentration"&gt;집중&lt;/LSTag&gt;을 방해하고 불을 끄며, 얼음 지면을 생성합니다.</content>
 </contentList>

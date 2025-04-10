@@ -317,5 +317,23 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71b42000-d29e-4d1c-a12d-4787e30830ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="Jaina_2_Blizzard" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d3cb49d0-66ea-446e-8d2e-3379126af8b5" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(802b8b51-1bcf-469d-8663-2f1dc9698982, 3,,,SleetStorm,JAINA_BLIZZARD);RemoveStatus(BURNING)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Jaina_2_Blizzard" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he189e4eag6657ge4cfg6049gaa1c656483c6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b79b612g8370g94b3g0d1bg7619100c7fc7" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(JAINA_BLIZZARD,100,3)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
