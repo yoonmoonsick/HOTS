@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cc445e54-9a93-405e-85fd-988397f17d85" />
         <field name="Name" type="NameTableFieldDefinition" value="Heroes of the Storm" />
-        <field name="Passives" type="StringTableFieldDefinition" value="Arthas_TheLichKing,Diablo_LordofTerror,ETC_RockGod,Illidan_TheBetrayer,Johanna_0_IronSkin,Kaelthas_TheSunKing,Kerrigan_QueenofBlades,Kharazim_VeradaniMonk,Nova_DominionGhost,Raynor_RenegadeCommander,Sonya_Fury,Thrall_WarchiefoftheHorde,Tyrael_ArchangelofJustice,Uther_TheLightbringer,Zeratul_DarkPrelate" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Arthas_TheLichKing,Diablo_LordofTerror,ETC_RockGod,Illidan_TheBetrayer,Jaina_0_Frostbite,Johanna_0_IronSkin,Kaelthas_TheSunKing,Kerrigan_QueenofBlades,Kharazim_VeradaniMonk,Nova_DominionGhost,Raynor_RenegadeCommander,Sonya_Fury,Thrall_WarchiefoftheHorde,Tyrael_ArchangelofJustice,Uther_TheLightbringer,Zeratul_DarkPrelate" />
       </fields>
     </stat_object>
   </stat_objects>

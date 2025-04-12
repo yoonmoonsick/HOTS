@@ -6,7 +6,7 @@
             <children>
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Heroes of the Storm"/>
-                    <attribute id="Passives" type="LSString" value="Arthas_TheLichKing,Diablo_LordofTerror,ETC_RockGod,Illidan_TheBetrayer,Johanna_0_IronSkin,Kaelthas_TheSunKing,Kerrigan_QueenofBlades,Kharazim_VeradaniMonk,Nova_DominionGhost,Raynor_RenegadeCommander,Sonya_Fury,Thrall_WarchiefoftheHorde,Tyrael_ArchangelofJustice,Uther_TheLightbringer,Zeratul_DarkPrelate"/>
+                    <attribute id="Passives" type="LSString" value="Arthas_TheLichKing,Diablo_LordofTerror,ETC_RockGod,Illidan_TheBetrayer,Jaina_0_Frostbite,Johanna_0_IronSkin,Kaelthas_TheSunKing,Kerrigan_QueenofBlades,Kharazim_VeradaniMonk,Nova_DominionGhost,Raynor_RenegadeCommander,Sonya_Fury,Thrall_WarchiefoftheHorde,Tyrael_ArchangelofJustice,Uther_TheLightbringer,Zeratul_DarkPrelate"/>
                     <attribute id="UUID" type="guid" value="cc445e54-9a93-405e-85fd-988397f17d85"/>
                 </node>
             </children>

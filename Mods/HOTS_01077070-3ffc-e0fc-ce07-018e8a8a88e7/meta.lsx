@@ -85,7 +85,7 @@
                     <attribute id="Author" type="LSString" value="Yoonmoonsick"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="This is a mod that adds feats inspired by the basic abilities and skills of heroes from *Heroes of the Storm*. Select one passive from the Feats."/>
-                    <attribute id="FileSize" type="uint64" value="2543432"/>
+                    <attribute id="FileSize" type="uint64" value="2543559"/>
                     <attribute id="Folder" type="LSString" value="HOTS_01077070-3ffc-e0fc-ce07-018e8a8a88e7"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
                     <attribute id="MD5" type="LSString" value="4e20a069ae5ddf98ed39fbdc7347aa3e"/>
@@ -96,7 +96,7 @@
                     <attribute id="PublishHandle" type="uint64" value="4761368"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="01077070-3ffc-e0fc-ce07-018e8a8a88e7"/>
-                    <attribute id="Version64" type="int64" value="36310271995674630"/>
+                    <attribute id="Version64" type="int64" value="36310271995674631"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718297457"/>
